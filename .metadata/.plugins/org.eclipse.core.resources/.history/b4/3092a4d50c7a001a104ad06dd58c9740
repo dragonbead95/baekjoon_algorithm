@@ -1,0 +1,45 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main {
+
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		// TODO Auto-generated method stub
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
+		int N = Integer.parseInt(br.readLine());
+		
+		for(int line=0;line<N*2;line++)
+		{
+			for(int i=1;i<=2;i++)
+			{
+				if(i%2==0)
+				{
+					for(int j=1;j<=N;j++)
+					{
+						if(j%2==0)
+						{
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						}
+					}
+				}else {
+					for(int j=1;j<=N;j++)
+					{
+						if(j%2==1)
+						{
+							System.out.print("*");
+						}else {
+							System.out.print(" ");
+						}
+					}
+				}
+				System.out.println();
+			}
+		}
+		
+	}
+
+}

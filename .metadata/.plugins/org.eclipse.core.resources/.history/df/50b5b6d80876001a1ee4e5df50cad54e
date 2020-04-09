@@ -1,0 +1,57 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Hashtable;
+import java.util.Map;
+
+public class Main {
+
+	public static void main(String[] args) throws NumberFormatException, IOException {
+		// TODO Auto-generated method stub
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		int T;
+		int N;
+		int matrix[][];
+		Map<Integer, Integer> map = new Hashtable<>();
+		int x,k=0,r=0,c=0;
+
+		T = Integer.parseInt(br.readLine());
+		N = Integer.parseInt(br.readLine());
+		
+		matrix = new int[N][N];
+		
+		//test case
+		for(int t=0;t<T;t++)
+		{
+			//input
+			for(int i=0;i<N;i++)
+			{
+				String str[] = br.readLine().split(" ");
+				for(int j=0;j<N;j++)
+				{
+					matrix[i][j] = Integer.parseInt(str[j]);
+					map.put(matrix[i][j],-1);
+				}
+			}
+			
+			System.out.println(map.toString());
+			
+			x=t+1; //current test case
+			
+			//compute the k
+			
+			int i=0,j=0;
+			while(i<N && j<N)
+			{
+				k += matrix[i][j];
+				i++;
+				j++;
+			}
+			
+			//compute the r
+
+			
+			
+		}	
+	}
+}
