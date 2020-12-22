@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
-	<item value="C:\Users\김용환\git\baekjoon\.git" key="GitSelectRepositoryPage.lastRepository"/>
+	<item key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel" value="0"/>
+	<item key="GitSelectRepositoryPage.lastRepository" value="C:\Users\김용환\git\baekjoon\.git"/>
 	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/dragonbead95/baekjoon_algorithm.git"/>
 		<item value="https://github.com/dragonbead95/baekjoon.git"/>
 	</list>
 	<list key="EGit.KnownHosts">
-		<item value="git.eclipse.org"/>
 		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
 		<item value="github.com"/>
 	</list>
 	<list key="CommitDialog.authorValues">
@@ -17,14 +18,14 @@
 		<item value="test &lt;dragonbead95@naver.com&gt;"/>
 	</list>
 	<section name="GitImportWizard">
-		<item value="true" key="GitProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item key="GitProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
-		<item value="668" key="DIALOG_WIDTH"/>
-		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
-		<item value="481" key="DIALOG_HEIGHT"/>
-		<item value="635" key="DIALOG_X_ORIGIN"/>
-		<item value="204" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_WIDTH" value="668"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+		<item key="DIALOG_HEIGHT" value="481"/>
+		<item key="DIALOG_X_ORIGIN" value="635"/>
+		<item key="DIALOG_Y_ORIGIN" value="204"/>
 		<list key="sashWeights">
 			<item value="600"/>
 			<item value="400"/>
@@ -33,8 +34,8 @@
 	<section name="GitCommitMessageComponent">
 	</section>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
-		<item value="500,500" key="STAGING_SASH_FORM_WEIGHT"/>
-		<item value="false" key="sortItemState"/>
-		<item value="500,500" key="HORIZONTAL_SASH_FORM_WEIGHT"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
 	</section>
 </section>
