@@ -22,7 +22,6 @@
     <fullyQualifiedTypeName name="com.sun.tools.classfile.CharacterRangeTable_attribute.Entry"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="java.sql.Array"/>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray"/>
@@ -36,4 +35,7 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="BOJ_1966.Main.Document"/>
+    <fullyQualifiedTypeName name="jdk.jfr.Unsigned"/>
+    <fullyQualifiedTypeName name="java.math.BigInteger"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>

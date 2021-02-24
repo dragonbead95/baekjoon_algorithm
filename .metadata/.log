@@ -10746,3 +10746,290 @@ java.net.UnknownHostException: 알려진 호스트가 없습니다 (jope.ow2.org
 
 !ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-12 14:12:18.093
 !MESSAGE Cannot handle netscape (not open) [in <module:jdk.jsobject>] as return type.
+!SESSION 2021-02-16 22:54:09.890 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-02-16 22:56:14.769
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-02-16 22:56:14.775
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-02-16 22:56:29.819
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-16 22:56:32.933
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\qkdlf'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 4 0 2021-02-16 23:05:39.274
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4711)
+	at org.eclipse.swt.SWT.error(SWT.java:4626)
+	at org.eclipse.swt.SWT.error(SWT.java:4597)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:452)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:351)
+	at org.eclipse.swt.widgets.Control.setFocus(Control.java:3451)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setFocus(AbstractAnnotationHover.java:214)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformationControl(AbstractInformationControlManager.java:1246)
+	at org.eclipse.jface.internal.text.StickyHoverManager.showInformationControl(StickyHoverManager.java:262)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.showInformationControl(InformationControlReplacer.java:164)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1134)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractInformationControlManager.setInformation(AbstractInformationControlManager.java:431)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.computeInformation(InformationControlReplacer.java:116)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1091)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.replaceInformationControl(InformationControlReplacer.java:103)
+	at org.eclipse.jface.text.AbstractInformationControlManager.replaceInformationControl(AbstractInformationControlManager.java:1268)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.replaceInformationControl(AbstractHoverInformationControlManager.java:794)
+	at org.eclipse.jface.text.TextViewerHoverManager.replaceInformationControl(TextViewerHoverManager.java:311)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$Closer.lambda$1(AbstractHoverInformationControlManager.java:296)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3961)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3588)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:633)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.940
+!MESSAGE Cannot handle BOJ_1000 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.942
+!MESSAGE Cannot handle BOJ_1001 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.943
+!MESSAGE Cannot handle BOJ_1008 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.944
+!MESSAGE Cannot handle BOJ_2438 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.946
+!MESSAGE Cannot handle BOJ_10718 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.948
+!MESSAGE Cannot handle BOJ_11279 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.950
+!MESSAGE Cannot handle BOJ_11286 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.951
+!MESSAGE Cannot handle BOJ_1927 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.952
+!MESSAGE Cannot handle BOJ_10757 [in src [in backjoon]]
+  [Working copy] Main.java
+    package BOJ_10757
+    import java.io.BufferedReader
+    import java.io.IOException
+    import java.io.InputStreamReader
+    import java.math.BigInteger
+    import jdk.jfr.Unsigned
+    class Main
+      static void main(String[]) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.953
+!MESSAGE Cannot handle BOJ_10773 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.954
+!MESSAGE Cannot handle BOJ_1966 [in src [in backjoon]]
+  [Working copy] Main.java
+    package BOJ_1966
+    import java.io.BufferedReader
+    import java.io.IOException
+    import java.io.InputStreamReader
+    import java.util.ArrayList
+    import java.util.Arrays
+    import java.util.List
+    import java.util.Stack
+    class Main
+      class Document
+        int id
+        int priority
+        int getId()
+        void setId(int)
+        int getPriority()
+        void setPriority(int)
+        Document()
+        Document(int, int)
+        String toString()
+      static void main(String[]) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.955
+!MESSAGE Cannot handle BOJ_1427 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.956
+!MESSAGE Cannot handle BOJ_10953 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.957
+!MESSAGE Cannot handle BOJ_11654 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.958
+!MESSAGE Cannot handle BOJ_10998 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.959
+!MESSAGE Cannot handle BOJ_8598 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.960
+!MESSAGE Cannot handle BOJ_2884 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.961
+!MESSAGE Cannot handle BOJ_9498 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.962
+!MESSAGE Cannot handle BOJ_1152 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.964
+!MESSAGE Cannot handle BOJ_1157 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.965
+!MESSAGE Cannot handle BOJ_1158 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.967
+!MESSAGE Cannot handle BOJ_10808 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.968
+!MESSAGE Cannot handle BOJ_10809 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.969
+!MESSAGE Cannot handle BOJ_1874 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.970
+!MESSAGE Cannot handle BOJ_1181 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.971
+!MESSAGE Cannot handle BOJ_2557 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.973
+!MESSAGE Cannot handle BOJ_10828 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.974
+!MESSAGE Cannot handle BOJ_2577 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.975
+!MESSAGE Cannot handle BOJ_1330 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.976
+!MESSAGE Cannot handle BOJ_2588 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.977
+!MESSAGE Cannot handle BOJ_14681 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.979
+!MESSAGE Cannot handle BOJ_10869 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.980
+!MESSAGE Cannot handle BOJ_10172 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.982
+!MESSAGE Cannot handle BOJ_10171 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.983
+!MESSAGE Cannot handle BOJ_2743 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.984
+!MESSAGE Cannot handle BOJ_2753 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.985
+!MESSAGE Cannot handle BOJ_2908 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.987
+!MESSAGE Cannot handle BOJ_11721 [in src [in backjoon]]
+  Main.java (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-16 23:07:13.988
+!MESSAGE Cannot handle BOJ_11720 [in src [in backjoon]]
+  Main.java (not open) as return type.
+!SESSION 2021-02-24 22:39:22.364 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-02-24 22:39:54.240
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-02-24 22:39:54.269
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-02-24 22:40:07.435
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-24 22:40:09.766
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\qkdlf'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-24 22:41:35.427
+!MESSAGE Cannot handle netscape.javascript (not open) [in <module:jdk.jsobject>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-02-24 22:41:35.428
+!MESSAGE Cannot handle netscape (not open) [in <module:jdk.jsobject>] as return type.
