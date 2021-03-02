@@ -4,40 +4,44 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 
 public class Main {
 	public static List<Integer> solution(int N, int K)
 	{
-		List<Integer> list = new ArrayList<>();
+		
 		List<Integer> answer = new ArrayList<>();
+		Queue<Integer> queue = new LinkedList<>();
 		
 		for(int i=1;i<=N;i++)
 		{
-			list.add(i);
+			queue.add(i);
 		}
-		
-		int index = 0;
-		while(list.size()!=0)
+	
+		int count = 0;
+		while(queue.size()!=1)
 		{
-			index += (K-1);
-			
-			if(index>=list.size())
+			count++;
+			if(count!=K)
 			{
-				while(index>=list.size())
-				{
-					index = index - list.size();
-				}
+				queue.add(queue.poll());
 			}
-			answer.add(list.remove(index));
+			else
+			{
+				answer.add(queue.poll());
+				count=0;
+			}
 		}
+		answer.add(queue.poll());
 		return answer;
 	}
 	public static void main(String args[]) throws IOException
 	{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+		StringBuilder sb = new StringBuilder();
 		
 		String strs[] = br.readLine().split(" ");
 		int N = Integer.parseInt(strs[0]);
@@ -45,20 +49,21 @@ public class Main {
 		
 		List<Integer> answer = solution(N, K);
 		
+		sb.append("<");
 		for(int i=0;i<answer.size();i++)
 		{
-			if(i==0)
+			if(i==answer.size()-1)
 			{
-				System.out.print("<");
-				System.out.print(answer.get(i) + ", ");
+				sb.append(answer.get(i));
 			}
-			else if(i==answer.size()-1)
+			else 
 			{
-				System.out.print(answer.get(i) + ">");
-			}else 
-			{
-				System.out.print(answer.get(i) + ", ");	
+				sb.append(answer.get(i)+", ");
 			}
 		}
+		sb.append(">");
+		System.out.println(sb);
+		
+		
 	}
 }

@@ -37,5 +37,7 @@
     <fullyQualifiedTypeName name="BOJ_1966.Main.Document"/>
     <fullyQualifiedTypeName name="jdk.jfr.Unsigned"/>
     <fullyQualifiedTypeName name="java.math.BigInteger"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 </qualifiedTypeNameHistroy>
