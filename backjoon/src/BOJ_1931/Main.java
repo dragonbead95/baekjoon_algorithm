@@ -42,11 +42,20 @@ public class Main {
 			}
 		};
 		
-		Collections.sort(list, comparator);
+		Comparator<Conference> comparator2 = new Comparator<Conference>() {
+			
+			@Override
+			public int compare(Conference c1, Conference c2) {
+				// TODO Auto-generated method stub
+				return c1.start - c2.start;
+			}
+		};
+		
+		Collections.sort(list, comparator.thenComparing(comparator2));
 		
 		int answer = 0;
 		Conference prev = null;
-
+		
 		for(Conference c : list)
 		{
 			// 첫번째 회의인경우
