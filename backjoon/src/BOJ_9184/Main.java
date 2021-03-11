@@ -1,50 +1,43 @@
 package BOJ_9184;
-
+/**
+ * 동적 계획법 솔루션
+ * step1 점화식 찾기 (동적계획법의 핵심은 반복되는 계산을 줄이는 것이기 때문에 대부분 점화식으로 표현 가능)
+ * step2 점화식에서 반복되는 수식 확인하기
+ * step3 점화식을 재귀식으로 전환, 반복되는 수식은 메모리에 저장하기
+ */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.HashMap;
-import java.util.Map;
-
 
 public class Main {
-	static final Map<Integer, Integer> map = new HashMap<Integer, Integer>();
+	static int[][][] arr = new int[21][21][21];
 	public static int w(int a, int b, int c)
 	{
-		int value;
+		if(a>=0 && a<=20 && b>=0 && b<=20 && c>=0 && c<=20)
+		{
+			if(arr[a][b][c]!=0)
+			{
+				return arr[a][b][c];
+			}
+		}
+		
 		if(a<=0 || b<=0 || c<=0)
 		{
 			return 1;
 		}
-		else if(a>20 || b>20 || c>20)
-		{
-			value = w(20,20,20);
-			map.put(value, value);
-			return map.get(value);
+		
+		// a,b,c 중 하나가 20보다 크면 a,b,c 전부 20으로 고정됨
+		if(a>20 || b>20 || c>20)
+		{	
+			return arr[20][20][20] = w(20,20,20);
 		}
-		else if(a<b && b<c)
+		
+		if(a<b && b<c)
 		{
-			int v1 = w(a,b,c-1);
-			int v2 = w(a,b-1,c-1);
-			int v3 = w(a,b-1,c);
-			map.put(v1, v1);
-			map.put(v2, v2);
-			map.put(v3, v3);
-			return map.get(v1) + map.get(v2) + map.get(v3);
+			return arr[a][b][c] = w(a,b,c-1) + w(a,b-1,c-1) - w(a,b-1,c);
 		}
-		else
-		{
-			
-			int v1 = w(a-1,b,c);
-			int v2 = w(a-1,b-1,c);
-			int v3 = w(a-1,b,c-1);
-			int v4 = w(a-1,b-1,c-1);
-			map.put(v1, v1);
-			map.put(v2, v2);
-			map.put(v3, v3);
-			map.put(v4, v4);
-			return map.get(v1) + map.get(v2) + map.get(v3) - map.get(v4);
-		}
+		
+		return arr[a][b][c] = w(a-1,b,c) + w(a-1,b-1,c) + w(a-1,b,c-1) - w(a-1,b-1,c-1);
 	}
 	
 	public static void main(String args[]) throws IOException
