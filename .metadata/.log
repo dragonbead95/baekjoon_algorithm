@@ -10325,3 +10325,3154 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-22 22:56:43.905
 !MESSAGE Cannot handle netscape (not open) [in <module:jdk.jsobject>] as return type.
+!SESSION 2021-03-22 23:38:29.099 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-22 23:38:36.274
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-22 23:38:36.277
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-22 23:38:46.191
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-22 23:38:47.723
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\qkdlf'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2021-03-22 23:48:07.242
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-03-22 23:48:17.717
+!MESSAGE Connection to http://jope.ow2.org/update/jope/p2.index failed on 알려진 호스트가 없습니다 (jope.ow2.org). Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: 알려진 호스트가 없습니다 (jope.ow2.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1517)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2021-03-22 23:48:17.957
+!MESSAGE Unknown Host: http://jope.ow2.org/update/jope/content.xml
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:246)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-03-22 23:48:46.969
+!MESSAGE Connection to http://jope.ow2.org/update/jope/p2.index failed on 알려진 호스트가 없습니다 (jope.ow2.org). Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: 알려진 호스트가 없습니다 (jope.ow2.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1517)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2021-03-23 10:18:47.186 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-23 10:18:57.158
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-23 10:18:57.161
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-23 10:19:10.330
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-23 10:19:11.997
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\qkdlf'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-03-24 21:06:35.926 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-24 21:06:47.402
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-24 21:06:47.405
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-24 21:06:58.583
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-24 21:07:00.391
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\qkdlf'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2021-03-24 21:19:42.042
+!MESSAGE No repository found at http://www.pramati.com/downloads/eclipse/updates/.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-03-24 21:19:50.409
+!MESSAGE Connection to http://jope.ow2.org/update/jope/p2.index failed on 알려진 호스트가 없습니다 (jope.ow2.org). Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: 알려진 호스트가 없습니다 (jope.ow2.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1517)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1006 2021-03-24 21:19:50.641
+!MESSAGE Unknown Host: http://jope.ow2.org/update/jope/content.xml
+!STACK 0
+java.net.UnknownHostException: jope.ow2.org
+	at java.base/java.net.InetAddress$CachedAddresses.get(InetAddress.java:800)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:246)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2021-03-24 21:20:07.178
+!MESSAGE Connection to http://jope.ow2.org/update/jope/p2.index failed on 알려진 호스트가 없습니다 (jope.ow2.org). Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: 알려진 호스트가 없습니다 (jope.ow2.org)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:932)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1517)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:851)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1507)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1366)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1300)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:373)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:394)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1000)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:992)
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:988)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2021-03-25 15:45:32.426 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-25 15:45:39.459
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-25 15:45:39.461
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-25 15:45:50.500
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-25 15:45:51.797
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\qkdlf'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.679
+!MESSAGE Cannot handle javax.swing.plaf.basic.icons (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.681
+!MESSAGE Cannot handle javax.print (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.682
+!MESSAGE Cannot handle javax.annotation.processing (not open) [in <module:java.compiler>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.682
+!MESSAGE Cannot handle javax.swing.beaninfo.images (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.683
+!MESSAGE Cannot handle java (not open) [in <module:java.rmi>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.684
+!MESSAGE Cannot handle java.util.concurrent (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.685
+!MESSAGE Cannot handle jdk.internal.platform (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.686
+!MESSAGE Cannot handle javax.xml.transform.stax (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.688
+!MESSAGE Cannot handle jdk.internal.icu.util (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.689
+!MESSAGE Cannot handle java.util.stream [in <module:java.base>]
+  AbstractPipeline.class (not open)
+  AbstractShortCircuitTask.class (not open)
+  AbstractSpinedBuffer.class (not open)
+  AbstractTask.class (not open)
+  BaseStream.class
+    interface BaseStream
+  Collector$Characteristics.class (not open)
+  Collector.class (not open)
+  Collectors$1OptionalBox.class (not open)
+  Collectors$1PairBox.class (not open)
+  Collectors$CollectorImpl.class (not open)
+  Collectors$Partition$1.class (not open)
+  Collectors$Partition.class (not open)
+  Collectors.class (not open)
+  DistinctOps$1$1.class (not open)
+  DistinctOps$1$2.class (not open)
+  DistinctOps$1.class (not open)
+  DistinctOps.class (not open)
+  DoublePipeline$1$1.class (not open)
+  DoublePipeline$1.class (not open)
+  DoublePipeline$2$1.class (not open)
+  DoublePipeline$2.class (not open)
+  DoublePipeline$3$1.class (not open)
+  DoublePipeline$3.class (not open)
+  DoublePipeline$4$1.class (not open)
+  DoublePipeline$4.class (not open)
+  DoublePipeline$5$1.class (not open)
+  DoublePipeline$5.class (not open)
+  DoublePipeline$6.class (not open)
+  DoublePipeline$7$1.class (not open)
+  DoublePipeline$7.class (not open)
+  DoublePipeline$8$1.class (not open)
+  DoublePipeline$8.class (not open)
+  DoublePipeline$Head.class (not open)
+  DoublePipeline$StatefulOp.class (not open)
+  DoublePipeline$StatelessOp.class (not open)
+  DoublePipeline.class (not open)
+  DoubleStream$1.class (not open)
+  DoubleStream$2.class (not open)
+  DoubleStream$Builder.class (not open)
+  DoubleStream.class
+    interface DoubleStream
+  FindOps$FindOp.class (not open)
+  FindOps$FindSink$OfDouble.class (not open)
+  FindOps$FindSink$OfInt.class (not open)
+  FindOps$FindSink$OfLong.class (not open)
+  FindOps$FindSink$OfRef.class (not open)
+  FindOps$FindSink.class (not open)
+  FindOps$FindTask.class (not open)
+  FindOps.class (not open)
+  ForEachOps$ForEachOp$OfDouble.class (not open)
+  ForEachOps$ForEachOp$OfInt.class (not open)
+  ForEachOps$ForEachOp$OfLong.class (not open)
+  ForEachOps$ForEachOp$OfRef.class (not open)
+  ForEachOps$ForEachOp.class (not open)
+  ForEachOps$ForEachOrderedTask.class (not open)
+  ForEachOps$ForEachTask.class (not open)
+  ForEachOps.class (not open)
+  IntPipeline$1$1.class (not open)
+  IntPipeline$1.class (not open)
+  IntPipeline$10$1.class (not open)
+  IntPipeline$10.class (not open)
+  IntPipeline$2$1.class (not open)
+  IntPipeline$2.class (not open)
+  IntPipeline$3$1.class (not open)
+  IntPipeline$3.class (not open)
+  IntPipeline$4$1.class (not open)
+  IntPipeline$4.class (not open)
+  IntPipeline$5$1.class (not open)
+  IntPipeline$5.class (not open)
+  IntPipeline$6$1.class (not open)
+  IntPipeline$6.class (not open)
+  IntPipeline$7$1.class (not open)
+  IntPipeline$7.class (not open)
+  IntPipeline$8.class (not open)
+  IntPipeline$9$1.class (not open)
+  IntPipeline$9.class (not open)
+  IntPipeline$Head.class (not open)
+  IntPipeline$StatefulOp.class (not open)
+  IntPipeline$StatelessOp.class (not open)
+  IntPipeline.class (not open)
+  IntStream$1.class (not open)
+  IntStream$2.class (not open)
+  IntStream$Builder.class (not open)
+  IntStream.class
+    interface IntStream
+  LongPipeline$1$1.class (not open)
+  LongPipeline$1.class (not open)
+  LongPipeline$2$1.class (not open)
+  LongPipeline$2.class (not open)
+  LongPipeline$3$1.class (not open)
+  LongPipeline$3.class (not open)
+  LongPipeline$4$1.class (not open)
+  LongPipeline$4.class (not open)
+  LongPipeline$5$1.class (not open)
+  LongPipeline$5.class (not open)
+  LongPipeline$6$1.class (not open)
+  LongPipeline$6.class (not open)
+  LongPipeline$7.class (not open)
+  LongPipeline$8$1.class (not open)
+  LongPipeline$8.class (not open)
+  LongPipeline$9$1.class (not open)
+  LongPipeline$9.class (not open)
+  LongPipeline$Head.class (not open)
+  LongPipeline$StatefulOp.class (not open)
+  LongPipeline$StatelessOp.class (not open)
+  LongPipeline.class (not open)
+  LongStream$1.class (not open)
+  LongStream$2.class (not open)
+  LongStream$Builder.class (not open)
+  LongStream.class
+    interface LongStream
+  MatchOps$1MatchSink.class (not open)
+  MatchOps$2MatchSink.class (not open)
+  MatchOps$3MatchSink.class (not open)
+  MatchOps$4MatchSink.class (not open)
+  MatchOps$BooleanTerminalSink.class (not open)
+  MatchOps$MatchKind.class (not open)
+  MatchOps$MatchOp.class (not open)
+  MatchOps$MatchTask.class (not open)
+  MatchOps.class (not open)
+  Node$Builder$OfDouble.class (not open)
+  Node$Builder$OfInt.class (not open)
+  Node$Builder$OfLong.class (not open)
+  Node$Builder.class (not open)
+  Node$OfDouble.class (not open)
+  Node$OfInt.class (not open)
+  Node$OfLong.class (not open)
+  Node$OfPrimitive.class (not open)
+  Node.class (not open)
+  Nodes$1.class (not open)
+  Nodes$AbstractConcNode.class (not open)
+  Nodes$ArrayNode.class (not open)
+  Nodes$CollectionNode.class (not open)
+  Nodes$CollectorTask$OfDouble.class (not open)
+  Nodes$CollectorTask$OfInt.class (not open)
+  Nodes$CollectorTask$OfLong.class (not open)
+  Nodes$CollectorTask$OfRef.class (not open)
+  Nodes$CollectorTask.class (not open)
+  Nodes$ConcNode$OfDouble.class (not open)
+  Nodes$ConcNode$OfInt.class (not open)
+  Nodes$ConcNode$OfLong.class (not open)
+  Nodes$ConcNode$OfPrimitive.class (not open)
+  Nodes$ConcNode.class (not open)
+  Nodes$DoubleArrayNode.class (not open)
+  Nodes$DoubleFixedNodeBuilder.class (not open)
+  Nodes$DoubleSpinedNodeBuilder.class (not open)
+  Nodes$EmptyNode$OfDouble.class (not open)
+  Nodes$EmptyNode$OfInt.class (not open)
+  Nodes$EmptyNode$OfLong.class (not open)
+  Nodes$EmptyNode$OfRef.class (not open)
+  Nodes$EmptyNode.class (not open)
+  Nodes$FixedNodeBuilder.class (not open)
+  Nodes$IntArrayNode.class (not open)
+  Nodes$IntFixedNodeBuilder.class (not open)
+  Nodes$IntSpinedNodeBuilder.class (not open)
+  Nodes$InternalNodeSpliterator$OfDouble.class (not open)
+  Nodes$InternalNodeSpliterator$OfInt.class (not open)
+  Nodes$InternalNodeSpliterator$OfLong.class (not open)
+  Nodes$InternalNodeSpliterator$OfPrimitive.class (not open)
+  Nodes$InternalNodeSpliterator$OfRef.class (not open)
+  Nodes$InternalNodeSpliterator.class (not open)
+  Nodes$LongArrayNode.class (not open)
+  Nodes$LongFixedNodeBuilder.class (not open)
+  Nodes$LongSpinedNodeBuilder.class (not open)
+  Nodes$SizedCollectorTask$OfDouble.class (not open)
+  Nodes$SizedCollectorTask$OfInt.class (not open)
+  Nodes$SizedCollectorTask$OfLong.class (not open)
+  Nodes$SizedCollectorTask$OfRef.class (not open)
+  Nodes$SizedCollectorTask.class (not open)
+  Nodes$SpinedNodeBuilder.class (not open)
+  Nodes$ToArrayTask$OfDouble.class (not open)
+  Nodes$ToArrayTask$OfInt.class (not open)
+  Nodes$ToArrayTask$OfLong.class (not open)
+  Nodes$ToArrayTask$OfPrimitive.class (not open)
+  Nodes$ToArrayTask$OfRef.class (not open)
+  Nodes$ToArrayTask.class (not open)
+  Nodes.class (not open)
+  PipelineHelper.class (not open)
+  ReduceOps$1.class (not open)
+  ReduceOps$10.class (not open)
+  ReduceOps$10ReducingSink.class (not open)
+  ReduceOps$11.class (not open)
+  ReduceOps$11ReducingSink.class (not open)
+  ReduceOps$12.class (not open)
+  ReduceOps$12ReducingSink.class (not open)
+  ReduceOps$13.class (not open)
+  ReduceOps$13ReducingSink.class (not open)
+  ReduceOps$14.class (not open)
+  ReduceOps$15.class (not open)
+  ReduceOps$16.class (not open)
+  ReduceOps$17.class (not open)
+  ReduceOps$1ReducingSink.class (not open)
+  ReduceOps$2.class (not open)
+  ReduceOps$2ReducingSink.class (not open)
+  ReduceOps$3.class (not open)
+  ReduceOps$3ReducingSink.class (not open)
+  ReduceOps$4.class (not open)
+  ReduceOps$4ReducingSink.class (not open)
+  ReduceOps$5.class (not open)
+  ReduceOps$5ReducingSink.class (not open)
+  ReduceOps$6.class (not open)
+  ReduceOps$6ReducingSink.class (not open)
+  ReduceOps$7.class (not open)
+  ReduceOps$7ReducingSink.class (not open)
+  ReduceOps$8.class (not open)
+  ReduceOps$8ReducingSink.class (not open)
+  ReduceOps$9.class (not open)
+  ReduceOps$9ReducingSink.class (not open)
+  ReduceOps$AccumulatingSink.class (not open)
+  ReduceOps$Box.class (not open)
+  ReduceOps$CountingSink$OfDouble.class (not open)
+  ReduceOps$CountingSink$OfInt.class (not open)
+  ReduceOps$CountingSink$OfLong.class (not open)
+  ReduceOps$CountingSink$OfRef.class (not open)
+  ReduceOps$CountingSink.class (not open)
+  ReduceOps$ReduceOp.class (not open)
+  ReduceOps$ReduceTask.class (not open)
+  ReduceOps.class (not open)
+  ReferencePipeline$1.class (not open)
+  ReferencePipeline$10$1.class (not open)
+  ReferencePipeline$10.class (not open)
+  ReferencePipeline$11$1.class (not open)
+  ReferencePipeline$11.class (not open)
+  ReferencePipeline$2$1.class (not open)
+  ReferencePipeline$2.class (not open)
+  ReferencePipeline$3$1.class (not open)
+  ReferencePipeline$3.class (not open)
+  ReferencePipeline$4$1.class (not open)
+  ReferencePipeline$4.class (not open)
+  ReferencePipeline$5$1.class (not open)
+  ReferencePipeline$5.class (not open)
+  ReferencePipeline$6$1.class (not open)
+  ReferencePipeline$6.class (not open)
+  ReferencePipeline$7$1.class (not open)
+  ReferencePipeline$7.class (not open)
+  ReferencePipeline$8$1.class (not open)
+  ReferencePipeline$8.class (not open)
+  ReferencePipeline$9$1.class (not open)
+  ReferencePipeline$9.class (not open)
+  ReferencePipeline$Head.class (not open)
+  ReferencePipeline$StatefulOp.class (not open)
+  ReferencePipeline$StatelessOp.class (not open)
+  ReferencePipeline.class (not open)
+  Sink$ChainedDouble.class (not open)
+  Sink$ChainedInt.class (not open)
+  Sink$ChainedLong.class (not open)
+  Sink$ChainedReference.class (not open)
+  Sink$OfDouble.class (not open)
+  Sink$OfInt.class (not open)
+  Sink$OfLong.class (not open)
+  Sink.class (not open)
+  SliceOps$1$1.class (not open)
+  SliceOps$1.class (not open)
+  SliceOps$2$1.class (not open)
+  SliceOps$2.class (not open)
+  SliceOps$3$1.class (not open)
+  SliceOps$3.class (not open)
+  SliceOps$4$1.class (not open)
+  SliceOps$4.class (not open)
+  SliceOps$5.class (not open)
+  SliceOps$SliceTask.class (not open)
+  SliceOps.class (not open)
+  SortedOps$AbstractDoubleSortingSink.class (not open)
+  SortedOps$AbstractIntSortingSink.class (not open)
+  SortedOps$AbstractLongSortingSink.class (not open)
+  SortedOps$AbstractRefSortingSink.class (not open)
+  SortedOps$DoubleSortingSink.class (not open)
+  SortedOps$IntSortingSink.class (not open)
+  SortedOps$LongSortingSink.class (not open)
+  SortedOps$OfDouble.class (not open)
+  SortedOps$OfInt.class (not open)
+  SortedOps$OfLong.class (not open)
+  SortedOps$OfRef.class (not open)
+  SortedOps$RefSortingSink.class (not open)
+  SortedOps$SizedDoubleSortingSink.class (not open)
+  SortedOps$SizedIntSortingSink.class (not open)
+  SortedOps$SizedLongSortingSink.class (not open)
+  SortedOps$SizedRefSortingSink.class (not open)
+  SortedOps.class (not open)
+  SpinedBuffer$1Splitr.class (not open)
+  SpinedBuffer$OfDouble$1Splitr.class (not open)
+  SpinedBuffer$OfDouble.class (not open)
+  SpinedBuffer$OfInt$1Splitr.class (not open)
+  SpinedBuffer$OfInt.class (not open)
+  SpinedBuffer$OfLong$1Splitr.class (not open)
+  SpinedBuffer$OfLong.class (not open)
+  SpinedBuffer$OfPrimitive$BaseSpliterator.class (not open)
+  SpinedBuffer$OfPrimitive.class (not open)
+  SpinedBuffer.class (not open)
+  Stream$1.class (not open)
+  Stream$2.class (not open)
+  Stream$Builder.class (not open)
+  Stream.class
+    interface Stream
+  StreamOpFlag$MaskBuilder.class (not open)
+  StreamOpFlag$Type.class (not open)
+  StreamOpFlag.class (not open)
+  StreamShape.class (not open)
+  StreamSpliterators$AbstractWrappingSpliterator.class (not open)
+  StreamSpliterators$ArrayBuffer$OfDouble.class (not open)
+  StreamSpliterators$ArrayBuffer$OfInt.class (not open)
+  StreamSpliterators$ArrayBuffer$OfLong.class (not open)
+  StreamSpliterators$ArrayBuffer$OfPrimitive.class (not open)
+  StreamSpliterators$ArrayBuffer$OfRef.class (not open)
+  StreamSpliterators$ArrayBuffer.class (not open)
+  StreamSpliterators$DelegatingSpliterator$OfDouble.class (not open)
+  StreamSpliterators$DelegatingSpliterator$OfInt.class (not open)
+  StreamSpliterators$DelegatingSpliterator$OfLong.class (not open)
+  StreamSpliterators$DelegatingSpliterator$OfPrimitive.class (not open)
+  StreamSpliterators$DelegatingSpliterator.class (not open)
+  StreamSpliterators$DistinctSpliterator.class (not open)
+  StreamSpliterators$DoubleWrappingSpliterator.class (not open)
+  StreamSpliterators$InfiniteSupplyingSpliterator$OfDouble.class (not open)
+  StreamSpliterators$InfiniteSupplyingSpliterator$OfInt.class (not open)
+  StreamSpliterators$InfiniteSupplyingSpliterator$OfLong.class (not open)
+  StreamSpliterators$InfiniteSupplyingSpliterator$OfRef.class (not open)
+  StreamSpliterators$InfiniteSupplyingSpliterator.class (not open)
+  StreamSpliterators$IntWrappingSpliterator.class (not open)
+  StreamSpliterators$LongWrappingSpliterator.class (not open)
+  StreamSpliterators$SliceSpliterator$OfDouble.class (not open)
+  StreamSpliterators$SliceSpliterator$OfInt.class (not open)
+  StreamSpliterators$SliceSpliterator$OfLong.class (not open)
+  StreamSpliterators$SliceSpliterator$OfPrimitive.class (not open)
+  StreamSpliterators$SliceSpliterator$OfRef.class (not open)
+  StreamSpliterators$SliceSpliterator.class (not open)
+  StreamSpliterators$UnorderedSliceSpliterator$OfDouble.class (not open)
+  StreamSpliterators$UnorderedSliceSpliterator$OfInt.class (not open)
+  StreamSpliterators$UnorderedSliceSpliterator$OfLong.class (not open)
+  StreamSpliterators$UnorderedSliceSpliterator$OfPrimitive.class (not open)
+  StreamSpliterators$UnorderedSliceSpliterator$OfRef.class (not open)
+  StreamSpliterators$UnorderedSliceSpliterator$PermitStatus.class (not open)
+  StreamSpliterators$UnorderedSliceSpliterator.class (not open)
+  StreamSpliterators$WrappingSpliterator.class (not open)
+  StreamSpliterators.class (not open)
+  StreamSupport.class (not open)
+  Streams$1.class (not open)
+  Streams$2.class (not open)
+  Streams$AbstractStreamBuilderImpl.class (not open)
+  Streams$ConcatSpliterator$OfDouble.class (not open)
+  Streams$ConcatSpliterator$OfInt.class (not open)
+  Streams$ConcatSpliterator$OfLong.class (not open)
+  Streams$ConcatSpliterator$OfPrimitive.class (not open)
+  Streams$ConcatSpliterator$OfRef.class (not open)
+  Streams$ConcatSpliterator.class (not open)
+  Streams$DoubleStreamBuilderImpl.class (not open)
+  Streams$IntStreamBuilderImpl.class (not open)
+  Streams$LongStreamBuilderImpl.class (not open)
+  Streams$RangeIntSpliterator.class (not open)
+  Streams$RangeLongSpliterator.class (not open)
+  Streams$StreamBuilderImpl.class (not open)
+  Streams.class (not open)
+  TerminalOp.class (not open)
+  TerminalSink.class (not open)
+  Tripwire.class (not open)
+  WhileOps$1$1.class (not open)
+  WhileOps$1.class (not open)
+  WhileOps$1Op$1OpSink.class (not open)
+  WhileOps$1Op.class (not open)
+  WhileOps$2$1.class (not open)
+  WhileOps$2.class (not open)
+  WhileOps$2Op$1OpSink.class (not open)
+  WhileOps$2Op.class (not open)
+  WhileOps$3$1.class (not open)
+  WhileOps$3.class (not open)
+  WhileOps$3Op$1OpSink.class (not open)
+  WhileOps$3Op.class (not open)
+  WhileOps$4$1.class (not open)
+  WhileOps$4.class (not open)
+  WhileOps$4Op$1OpSink.class (not open)
+  WhileOps$4Op.class (not open)
+  WhileOps$DropWhileOp.class (not open)
+  WhileOps$DropWhileSink.class (not open)
+  WhileOps$DropWhileTask.class (not open)
+  WhileOps$TakeWhileTask.class (not open)
+  WhileOps$UnorderedWhileSpliterator$OfDouble$Dropping.class (not open)
+  WhileOps$UnorderedWhileSpliterator$OfDouble$Taking.class (not open)
+  WhileOps$UnorderedWhileSpliterator$OfDouble.class (not open)
+  WhileOps$UnorderedWhileSpliterator$OfInt$Dropping.class (not open)
+  WhileOps$UnorderedWhileSpliterator$OfInt$Taking.class (not open)
+  WhileOps$UnorderedWhileSpliterator$OfInt.class (not open)
+  WhileOps$UnorderedWhileSpliterator$OfLong$Dropping.class (not open)
+  WhileOps$UnorderedWhileSpliterator$OfLong$Taking.class (not open)
+  WhileOps$UnorderedWhileSpliterator$OfLong.class (not open)
+  WhileOps$UnorderedWhileSpliterator$OfRef$Dropping.class (not open)
+  WhileOps$UnorderedWhileSpliterator$OfRef$Taking.class (not open)
+  WhileOps$UnorderedWhileSpliterator$OfRef.class (not open)
+  WhileOps$UnorderedWhileSpliterator.class (not open)
+  WhileOps.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.691
+!MESSAGE Cannot handle jdk.swing.interop.internal (not open) [in <module:jdk.unsupported.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.692
+!MESSAGE Cannot handle javax.swing.text.rtf.charsets (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.693
+!MESSAGE Cannot handle javax.swing.plaf.metal.sounds (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.695
+!MESSAGE Cannot handle javax.crypto (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.696
+!MESSAGE Cannot handle javax.xml.datatype (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.697
+!MESSAGE Cannot handle javax.rmi.ssl (not open) [in <module:java.rmi>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.697
+!MESSAGE Cannot handle jdk.internal.jmod (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.699
+!MESSAGE Cannot handle javax.imageio.event (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.699
+!MESSAGE Cannot handle jdk.dynalink.beans (not open) [in <module:jdk.dynalink>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.700
+!MESSAGE Cannot handle javax.imageio.metadata (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.701
+!MESSAGE Cannot handle java.net.http (not open) [in <module:java.net.http>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.703
+!MESSAGE Cannot handle jdk.internal.org.jline.terminal.impl (not open) [in <module:jdk.internal.le>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.704
+!MESSAGE Cannot handle jdk.internal.editor.spi (not open) [in <module:jdk.internal.ed>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.705
+!MESSAGE Cannot handle jdk.internal.agent.resources (not open) [in <module:jdk.management.agent>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.706
+!MESSAGE Cannot handle javax.management.relation (not open) [in <module:java.management>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.707
+!MESSAGE Cannot handle jdk.nio (not open) [in <module:jdk.net>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.708
+!MESSAGE Cannot handle jdk.internal.jimage (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.709
+!MESSAGE Cannot handle javax.naming.ldap (not open) [in <module:java.naming>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.711
+!MESSAGE Cannot handle javax.swing.filechooser (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.712
+!MESSAGE Cannot handle javax.security.auth.spi (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.713
+!MESSAGE Cannot handle jdk.internal.org.jline.terminal.impl.jna.win (not open) [in <module:jdk.internal.le>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.714
+!MESSAGE Cannot handle java.awt.font (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.715
+!MESSAGE Cannot handle jdk.internal.org.objectweb.asm.tree (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.717
+!MESSAGE Cannot handle java.lang.invoke [in <module:java.base>]
+  AbstractConstantGroup$AsIterator.class (not open)
+  AbstractConstantGroup$AsList.class (not open)
+  AbstractConstantGroup$BSCIWithCache.class (not open)
+  AbstractConstantGroup$SubGroup.class (not open)
+  AbstractConstantGroup$WithCache.class (not open)
+  AbstractConstantGroup.class (not open)
+  AbstractValidatingLambdaMetafactory.class (not open)
+  BootstrapCallInfo.class (not open)
+  BootstrapMethodInvoker$PullAdapter.class (not open)
+  BootstrapMethodInvoker$PushAdapter.class (not open)
+  BootstrapMethodInvoker$VM_BSCI.class (not open)
+  BootstrapMethodInvoker.class (not open)
+  BoundMethodHandle$1.class (not open)
+  BoundMethodHandle$Specializer$Factory.class (not open)
+  BoundMethodHandle$Specializer.class (not open)
+  BoundMethodHandle$SpeciesData.class (not open)
+  BoundMethodHandle$Species_D.class (not open)
+  BoundMethodHandle$Species_DL.class (not open)
+  BoundMethodHandle$Species_I.class (not open)
+  BoundMethodHandle$Species_IL.class (not open)
+  BoundMethodHandle$Species_L.class (not open)
+  BoundMethodHandle$Species_LJ.class (not open)
+  BoundMethodHandle$Species_LL.class (not open)
+  BoundMethodHandle$Species_LLL.class (not open)
+  BoundMethodHandle$Species_LLLL.class (not open)
+  BoundMethodHandle$Species_LLLLL.class (not open)
+  BoundMethodHandle$Species_LLLLLL.class (not open)
+  BoundMethodHandle$Species_LLLLLLL.class (not open)
+  BoundMethodHandle$Species_LLLLLLLL.class (not open)
+  BoundMethodHandle$Species_LLLLLLLLL.class (not open)
+  BoundMethodHandle$Species_LLLLLLLLLL.class (not open)
+  BoundMethodHandle$Species_LLLLLLLLLLL.class (not open)
+  BoundMethodHandle$Species_LLLLLLLLLLLL.class (not open)
+  BoundMethodHandle$Species_LLLLLLLLLLLLL.class (not open)
+  BoundMethodHandle.class (not open)
+  CallSite.class (not open)
+  ClassSpecializer$1.class (not open)
+  ClassSpecializer$Factory$1.class (not open)
+  ClassSpecializer$Factory$1Var.class (not open)
+  ClassSpecializer$Factory.class (not open)
+  ClassSpecializer$SpeciesData.class (not open)
+  ClassSpecializer.class (not open)
+  ConstantBootstraps.class (not open)
+  ConstantCallSite.class (not open)
+  ConstantGroup$1.class (not open)
+  ConstantGroup$1Impl.class (not open)
+  ConstantGroup.class (not open)
+  DelegatingMethodHandle$Holder.class (not open)
+  DelegatingMethodHandle.class (not open)
+  DirectMethodHandle$1.class (not open)
+  DirectMethodHandle$Accessor.class (not open)
+  DirectMethodHandle$Constructor.class (not open)
+  DirectMethodHandle$EnsureInitialized.class (not open)
+  DirectMethodHandle$Holder.class (not open)
+  DirectMethodHandle$Interface.class (not open)
+  DirectMethodHandle$Special.class (not open)
+  DirectMethodHandle$StaticAccessor.class (not open)
+  DirectMethodHandle.class (not open)
+  GenerateJLIClassesHelper.class (not open)
+  IndirectVarHandle.class (not open)
+  InfoFromMemberName$1.class (not open)
+  InfoFromMemberName.class (not open)
+  InjectedProfile.class (not open)
+  InnerClassLambdaMetafactory$1.class (not open)
+  InnerClassLambdaMetafactory$2.class (not open)
+  InnerClassLambdaMetafactory$ForwardingMethodGenerator.class (not open)
+  InnerClassLambdaMetafactory.class (not open)
+  InvokeDynamic.class (not open)
+  InvokerBytecodeGenerator$1.class (not open)
+  InvokerBytecodeGenerator$2.class (not open)
+  InvokerBytecodeGenerator$BytecodeGenerationException.class (not open)
+  InvokerBytecodeGenerator$ClassData.class (not open)
+  InvokerBytecodeGenerator.class (not open)
+  Invokers$Holder.class (not open)
+  Invokers$Lazy.class (not open)
+  Invokers.class (not open)
+  LambdaConversionException.class (not open)
+  LambdaForm$1.class (not open)
+  LambdaForm$BasicType.class (not open)
+  LambdaForm$Compiled.class (not open)
+  LambdaForm$Holder.class (not open)
+  LambdaForm$Kind.class (not open)
+  LambdaForm$Name.class (not open)
+  LambdaForm$NamedFunction.class (not open)
+  LambdaForm.class (not open)
+  LambdaFormBuffer.class (not open)
+  LambdaFormEditor$1.class (not open)
+  LambdaFormEditor$Transform.class (not open)
+  LambdaFormEditor$TransformKey.class (not open)
+  LambdaFormEditor.class (not open)
+  LambdaMetafactory.class (not open)
+  LambdaProxyClassArchive.class (not open)
+  MemberName$Factory.class (not open)
+  MemberName.class (not open)
+  MemoryAccessVarHandleBase.class (not open)
+  MemoryAccessVarHandleByteHelper.class (not open)
+  MemoryAccessVarHandleCharHelper.class (not open)
+  MemoryAccessVarHandleDoubleHelper.class (not open)
+  MemoryAccessVarHandleFloatHelper.class (not open)
+  MemoryAccessVarHandleGenerator$1.class (not open)
+  MemoryAccessVarHandleGenerator.class (not open)
+  MemoryAccessVarHandleIntHelper.class (not open)
+  MemoryAccessVarHandleLongHelper.class (not open)
+  MemoryAccessVarHandleShortHelper.class (not open)
+  MethodHandle$PolymorphicSignature.class (not open)
+  MethodHandle.class (not open)
+  MethodHandleImpl$1.class (not open)
+  MethodHandleImpl$2.class (not open)
+  MethodHandleImpl$ArrayAccess.class (not open)
+  MethodHandleImpl$ArrayAccessor$1.class (not open)
+  MethodHandleImpl$ArrayAccessor.class (not open)
+  MethodHandleImpl$AsVarargsCollector.class (not open)
+  MethodHandleImpl$BindCaller$1.class (not open)
+  MethodHandleImpl$BindCaller.class (not open)
+  MethodHandleImpl$CountingWrapper.class (not open)
+  MethodHandleImpl$Intrinsic.class (not open)
+  MethodHandleImpl$IntrinsicMethodHandle.class (not open)
+  MethodHandleImpl$LoopClauses.class (not open)
+  MethodHandleImpl$Makers$1.class (not open)
+  MethodHandleImpl$Makers$2.class (not open)
+  MethodHandleImpl$Makers$3.class (not open)
+  MethodHandleImpl$Makers.class (not open)
+  MethodHandleImpl$WrappedMember.class (not open)
+  MethodHandleImpl.class (not open)
+  MethodHandleInfo.class (not open)
+  MethodHandleNatives$CallSiteContext.class (not open)
+  MethodHandleNatives$Constants.class (not open)
+  MethodHandleNatives.class (not open)
+  MethodHandleProxies$1.class (not open)
+  MethodHandleProxies$2.class (not open)
+  MethodHandleProxies.class (not open)
+  MethodHandleStatics.class (not open)
+  MethodHandles$1.class (not open)
+  MethodHandles$Lookup$ClassDefiner.class (not open)
+  MethodHandles$Lookup$ClassFile.class (not open)
+  MethodHandles$Lookup$ClassOption.class (not open)
+  MethodHandles$Lookup.class
+    class Lookup
+  MethodHandles.class
+    class MethodHandles
+  MethodType$ConcurrentWeakInternSet$WeakEntry.class (not open)
+  MethodType$ConcurrentWeakInternSet.class (not open)
+  MethodType$OffsetHolder.class (not open)
+  MethodType.class (not open)
+  MethodTypeForm.class (not open)
+  MutableCallSite.class (not open)
+  ProxyClassesDumper$1.class (not open)
+  ProxyClassesDumper.class (not open)
+  ResolvedMethodName.class (not open)
+  SerializedLambda$1.class (not open)
+  SerializedLambda.class (not open)
+  SimpleMethodHandle.class (not open)
+  StringConcatException.class (not open)
+  StringConcatFactory$1.class (not open)
+  StringConcatFactory$2.class (not open)
+  StringConcatFactory$3.class (not open)
+  StringConcatFactory.class (not open)
+  SwitchPoint.class (not open)
+  TypeConvertingMethodAdapter.class (not open)
+  TypeDescriptor$OfField.class
+    interface OfField
+  TypeDescriptor$OfMethod.class (not open)
+  TypeDescriptor.class
+    interface TypeDescriptor
+  VarForm.class (not open)
+  VarHandle$1.class (not open)
+  VarHandle$2.class (not open)
+  VarHandle$AccessDescriptor.class (not open)
+  VarHandle$AccessMode.class (not open)
+  VarHandle$AccessType.class (not open)
+  VarHandle$TypesAndInvokers.class (not open)
+  VarHandle$VarHandleDesc$Kind.class (not open)
+  VarHandle$VarHandleDesc.class (not open)
+  VarHandle.class (not open)
+  VarHandleBooleans$Array.class (not open)
+  VarHandleBooleans$FieldInstanceReadOnly.class (not open)
+  VarHandleBooleans$FieldInstanceReadWrite.class (not open)
+  VarHandleBooleans$FieldStaticReadOnly.class (not open)
+  VarHandleBooleans$FieldStaticReadWrite.class (not open)
+  VarHandleBooleans.class (not open)
+  VarHandleByteArrayAsChars$ArrayHandle.class (not open)
+  VarHandleByteArrayAsChars$ByteArrayViewVarHandle.class (not open)
+  VarHandleByteArrayAsChars$ByteBufferHandle.class (not open)
+  VarHandleByteArrayAsChars.class (not open)
+  VarHandleByteArrayAsDoubles$ArrayHandle.class (not open)
+  VarHandleByteArrayAsDoubles$ByteArrayViewVarHandle.class (not open)
+  VarHandleByteArrayAsDoubles$ByteBufferHandle.class (not open)
+  VarHandleByteArrayAsDoubles.class (not open)
+  VarHandleByteArrayAsFloats$ArrayHandle.class (not open)
+  VarHandleByteArrayAsFloats$ByteArrayViewVarHandle.class (not open)
+  VarHandleByteArrayAsFloats$ByteBufferHandle.class (not open)
+  VarHandleByteArrayAsFloats.class (not open)
+  VarHandleByteArrayAsInts$ArrayHandle.class (not open)
+  VarHandleByteArrayAsInts$ByteArrayViewVarHandle.class (not open)
+  VarHandleByteArrayAsInts$ByteBufferHandle.class (not open)
+  VarHandleByteArrayAsInts.class (not open)
+  VarHandleByteArrayAsLongs$ArrayHandle.class (not open)
+  VarHandleByteArrayAsLongs$ByteArrayViewVarHandle.class (not open)
+  VarHandleByteArrayAsLongs$ByteBufferHandle.class (not open)
+  VarHandleByteArrayAsLongs.class (not open)
+  VarHandleByteArrayAsShorts$ArrayHandle.class (not open)
+  VarHandleByteArrayAsShorts$ByteArrayViewVarHandle.class (not open)
+  VarHandleByteArrayAsShorts$ByteBufferHandle.class (not open)
+  VarHandleByteArrayAsShorts.class (not open)
+  VarHandleByteArrayBase.class (not open)
+  VarHandleBytes$Array.class (not open)
+  VarHandleBytes$FieldInstanceReadOnly.class (not open)
+  VarHandleBytes$FieldInstanceReadWrite.class (not open)
+  VarHandleBytes$FieldStaticReadOnly.class (not open)
+  VarHandleBytes$FieldStaticReadWrite.class (not open)
+  VarHandleBytes.class (not open)
+  VarHandleChars$Array.class (not open)
+  VarHandleChars$FieldInstanceReadOnly.class (not open)
+  VarHandleChars$FieldInstanceReadWrite.class (not open)
+  VarHandleChars$FieldStaticReadOnly.class (not open)
+  VarHandleChars$FieldStaticReadWrite.class (not open)
+  VarHandleChars.class (not open)
+  VarHandleDoubles$Array.class (not open)
+  VarHandleDoubles$FieldInstanceReadOnly.class (not open)
+  VarHandleDoubles$FieldInstanceReadWrite.class (not open)
+  VarHandleDoubles$FieldStaticReadOnly.class (not open)
+  VarHandleDoubles$FieldStaticReadWrite.class (not open)
+  VarHandleDoubles.class (not open)
+  VarHandleFloats$Array.class (not open)
+  VarHandleFloats$FieldInstanceReadOnly.class (not open)
+  VarHandleFloats$FieldInstanceReadWrite.class (not open)
+  VarHandleFloats$FieldStaticReadOnly.class (not open)
+  VarHandleFloats$FieldStaticReadWrite.class (not open)
+  VarHandleFloats.class (not open)
+  VarHandleGuards.class (not open)
+  VarHandleInts$Array.class (not open)
+  VarHandleInts$FieldInstanceReadOnly.class (not open)
+  VarHandleInts$FieldInstanceReadWrite.class (not open)
+  VarHandleInts$FieldStaticReadOnly.class (not open)
+  VarHandleInts$FieldStaticReadWrite.class (not open)
+  VarHandleInts.class (not open)
+  VarHandleLongs$Array.class (not open)
+  VarHandleLongs$FieldInstanceReadOnly.class (not open)
+  VarHandleLongs$FieldInstanceReadWrite.class (not open)
+  VarHandleLongs$FieldStaticReadOnly.class (not open)
+  VarHandleLongs$FieldStaticReadWrite.class (not open)
+  VarHandleLongs.class (not open)
+  VarHandleReferences$Array.class (not open)
+  VarHandleReferences$FieldInstanceReadOnly.class (not open)
+  VarHandleReferences$FieldInstanceReadWrite.class (not open)
+  VarHandleReferences$FieldStaticReadOnly.class (not open)
+  VarHandleReferences$FieldStaticReadWrite.class (not open)
+  VarHandleReferences.class (not open)
+  VarHandleShorts$Array.class (not open)
+  VarHandleShorts$FieldInstanceReadOnly.class (not open)
+  VarHandleShorts$FieldInstanceReadWrite.class (not open)
+  VarHandleShorts$FieldStaticReadOnly.class (not open)
+  VarHandleShorts$FieldStaticReadWrite.class (not open)
+  VarHandleShorts.class (not open)
+  VarHandles$1.class (not open)
+  VarHandles$2.class (not open)
+  VarHandles.class (not open)
+  VolatileCallSite.class (not open)
+  WrongMethodTypeException.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.718
+!MESSAGE Cannot handle java.time.format (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.719
+!MESSAGE Cannot handle java.util.function [in <module:java.base>]
+  BiConsumer.class (not open)
+  BiFunction.class (not open)
+  BiPredicate.class (not open)
+  BinaryOperator.class (not open)
+  BooleanSupplier.class (not open)
+  Consumer.class (not open)
+  DoubleBinaryOperator.class (not open)
+  DoubleConsumer.class
+    interface DoubleConsumer
+  DoubleFunction.class (not open)
+  DoublePredicate.class (not open)
+  DoubleSupplier.class (not open)
+  DoubleToIntFunction.class (not open)
+  DoubleToLongFunction.class (not open)
+  DoubleUnaryOperator.class (not open)
+  Function.class
+    interface Function
+  IntBinaryOperator.class (not open)
+  IntConsumer.class
+    interface IntConsumer
+  IntFunction.class (not open)
+  IntPredicate.class (not open)
+  IntSupplier.class (not open)
+  IntToDoubleFunction.class (not open)
+  IntToLongFunction.class (not open)
+  IntUnaryOperator.class (not open)
+  LongBinaryOperator.class (not open)
+  LongConsumer.class
+    interface LongConsumer
+  LongFunction.class (not open)
+  LongPredicate.class (not open)
+  LongSupplier.class (not open)
+  LongToDoubleFunction.class (not open)
+  LongToIntFunction.class (not open)
+  LongUnaryOperator.class (not open)
+  ObjDoubleConsumer.class (not open)
+  ObjIntConsumer.class (not open)
+  ObjLongConsumer.class (not open)
+  Predicate.class (not open)
+  Supplier.class (not open)
+  ToDoubleBiFunction.class (not open)
+  ToDoubleFunction.class (not open)
+  ToIntBiFunction.class (not open)
+  ToIntFunction.class (not open)
+  ToLongBiFunction.class (not open)
+  ToLongFunction.class (not open)
+  UnaryOperator.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.720
+!MESSAGE Cannot handle jdk.javadoc.internal.api (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.721
+!MESSAGE Cannot handle javax.imageio.stream (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.722
+!MESSAGE Cannot handle jdk.jshell.tool (not open) [in <module:jdk.jshell>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.723
+!MESSAGE Cannot handle jdk.jshell (not open) [in <module:jdk.jshell>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.724
+!MESSAGE Cannot handle jdk.internal.joptsimple.internal (not open) [in <module:jdk.internal.opt>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.725
+!MESSAGE Cannot handle javax.swing.undo (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.727
+!MESSAGE Cannot handle java.awt.image (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.728
+!MESSAGE Cannot handle jdk.jfr.internal (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.729
+!MESSAGE Cannot handle javax.rmi (not open) [in <module:java.rmi>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.730
+!MESSAGE Cannot handle javax.swing.text.html.parser (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.731
+!MESSAGE Cannot handle javax.swing [in <module:java.desktop>]
+  AbstractAction.class (not open)
+  AbstractButton$AccessibleAbstractButton$ButtonKeyBinding.class (not open)
+  AbstractButton$AccessibleAbstractButton.class (not open)
+  AbstractButton$ButtonActionPropertyChangeListener.class (not open)
+  AbstractButton$ButtonChangeListener.class (not open)
+  AbstractButton$Handler.class (not open)
+  AbstractButton.class (not open)
+  AbstractCellEditor.class (not open)
+  AbstractListModel.class (not open)
+  AbstractSpinnerModel.class (not open)
+  Action.class (not open)
+  ActionMap.class (not open)
+  ActionPropertyChangeListener$OwnedWeakReference.class (not open)
+  ActionPropertyChangeListener.class (not open)
+  AncestorNotifier.class (not open)
+  ArrayTable.class (not open)
+  Autoscroller.class (not open)
+  BorderFactory.class (not open)
+  BoundedRangeModel.class (not open)
+  Box$AccessibleBox.class (not open)
+  Box$Filler$AccessibleBoxFiller.class (not open)
+  Box$Filler.class (not open)
+  Box.class (not open)
+  BoxLayout.class (not open)
+  BufferStrategyPaintManager$1.class (not open)
+  BufferStrategyPaintManager$2.class (not open)
+  BufferStrategyPaintManager$BufferInfo.class (not open)
+  BufferStrategyPaintManager.class (not open)
+  ButtonGroup.class (not open)
+  ButtonModel.class (not open)
+  CellEditor.class (not open)
+  CellRendererPane$AccessibleCellRendererPane.class (not open)
+  CellRendererPane.class (not open)
+  ClientPropertyKey$1.class (not open)
+  ClientPropertyKey.class (not open)
+  ColorChooserDialog$1.class (not open)
+  ColorChooserDialog$2.class (not open)
+  ColorChooserDialog$3.class (not open)
+  ColorChooserDialog$4.class (not open)
+  ColorChooserDialog$Closer.class (not open)
+  ColorChooserDialog$DisposeOnClose.class (not open)
+  ColorChooserDialog.class (not open)
+  ColorTracker.class (not open)
+  ComboBoxEditor.class (not open)
+  ComboBoxModel.class (not open)
+  CompareTabOrderComparator.class (not open)
+  ComponentInputMap.class (not open)
+  DebugGraphics.class (not open)
+  DebugGraphicsFilter.class (not open)
+  DebugGraphicsInfo.class (not open)
+  DebugGraphicsObserver.class (not open)
+  DefaultBoundedRangeModel.class (not open)
+  DefaultButtonModel.class (not open)
+  DefaultCellEditor$1.class (not open)
+  DefaultCellEditor$2.class (not open)
+  DefaultCellEditor$3.class (not open)
+  DefaultCellEditor$EditorDelegate.class (not open)
+  DefaultCellEditor.class (not open)
+  DefaultComboBoxModel.class (not open)
+  DefaultDesktopManager$1.class (not open)
+  DefaultDesktopManager.class (not open)
+  DefaultFocusManager.class (not open)
+  DefaultListCellRenderer$UIResource.class (not open)
+  DefaultListCellRenderer.class (not open)
+  DefaultListModel.class (not open)
+  DefaultListSelectionModel.class (not open)
+  DefaultRowSorter$FilterEntry.class (not open)
+  DefaultRowSorter$ModelWrapper.class (not open)
+  DefaultRowSorter$Row.class (not open)
+  DefaultRowSorter.class (not open)
+  DefaultSingleSelectionModel.class (not open)
+  DelegatingDefaultFocusManager.class (not open)
+  DesktopManager.class (not open)
+  DropMode.class (not open)
+  FocusManager.class (not open)
+  GraphicsWrapper.class (not open)
+  GrayFilter.class (not open)
+  GroupLayout$1.class (not open)
+  GroupLayout$Alignment.class (not open)
+  GroupLayout$AutoPreferredGapMatch.class (not open)
+  GroupLayout$AutoPreferredGapSpring.class (not open)
+  GroupLayout$BaselineGroup.class (not open)
+  GroupLayout$ComponentInfo.class (not open)
+  GroupLayout$ComponentSpring.class (not open)
+  GroupLayout$ContainerAutoPreferredGapSpring.class (not open)
+  GroupLayout$GapSpring.class (not open)
+  GroupLayout$Group.class (not open)
+  GroupLayout$LinkInfo.class (not open)
+  GroupLayout$ParallelGroup.class (not open)
+  GroupLayout$PreferredGapSpring.class (not open)
+  GroupLayout$SequentialGroup.class (not open)
+  GroupLayout$Spring.class (not open)
+  GroupLayout$SpringDelta.class (not open)
+  GroupLayout.class (not open)
+  Icon.class (not open)
+  ImageIcon$1.class (not open)
+  ImageIcon$2$1.class (not open)
+  ImageIcon$2.class (not open)
+  ImageIcon$3.class (not open)
+  ImageIcon$AccessibleImageIcon.class (not open)
+  ImageIcon.class (not open)
+  InputMap.class (not open)
+  InputVerifier.class (not open)
+  InternalFrameFocusTraversalPolicy.class (not open)
+  JApplet$AccessibleJApplet.class (not open)
+  JApplet.class (not open)
+  JButton$AccessibleJButton.class (not open)
+  JButton.class (not open)
+  JCheckBox$AccessibleJCheckBox.class (not open)
+  JCheckBox.class (not open)
+  JCheckBoxMenuItem$AccessibleJCheckBoxMenuItem.class (not open)
+  JCheckBoxMenuItem.class (not open)
+  JColorChooser$AccessibleJColorChooser.class (not open)
+  JColorChooser.class (not open)
+  JComboBox$1.class (not open)
+  JComboBox$AccessibleJComboBox$AccessibleEditor.class (not open)
+  JComboBox$AccessibleJComboBox$AccessibleJComboBoxListSelectionListener.class (not open)
+  JComboBox$AccessibleJComboBox$AccessibleJComboBoxPopupMenuListener.class (not open)
+  JComboBox$AccessibleJComboBox$AccessibleJComboBoxPropertyChangeListener.class (not open)
+  JComboBox$AccessibleJComboBox$EditorAccessibleContext.class (not open)
+  JComboBox$AccessibleJComboBox.class (not open)
+  JComboBox$ComboBoxActionPropertyChangeListener.class (not open)
+  JComboBox$DefaultKeySelectionManager.class (not open)
+  JComboBox$KeySelectionManager.class (not open)
+  JComboBox.class (not open)
+  JComponent$1.class (not open)
+  JComponent$2.class (not open)
+  JComponent$AccessibleJComponent$AccessibleContainerHandler.class (not open)
+  JComponent$AccessibleJComponent$AccessibleFocusHandler.class (not open)
+  JComponent$AccessibleJComponent.class (not open)
+  JComponent$ActionStandin.class (not open)
+  JComponent$IntVector.class (not open)
+  JComponent$KeyboardState.class (not open)
+  JComponent$ReadObjectCallback.class (not open)
+  JComponent.class (not open)
+  JDesktopPane$1.class (not open)
+  JDesktopPane$AccessibleJDesktopPane.class (not open)
+  JDesktopPane$ComponentPosition.class (not open)
+  JDesktopPane.class (not open)
+  JDialog$AccessibleJDialog.class (not open)
+  JDialog.class (not open)
+  JEditorPane$1.class (not open)
+  JEditorPane$2.class (not open)
+  JEditorPane$3.class (not open)
+  JEditorPane$AccessibleJEditorPane.class (not open)
+  JEditorPane$AccessibleJEditorPaneHTML.class (not open)
+  JEditorPane$HeaderParser.class (not open)
+  JEditorPane$JEditorPaneAccessibleHypertextSupport$1.class (not open)
+  JEditorPane$JEditorPaneAccessibleHypertextSupport$HTMLLink.class (not open)
+  JEditorPane$JEditorPaneAccessibleHypertextSupport$LinkVector.class (not open)
+  JEditorPane$JEditorPaneAccessibleHypertextSupport.class (not open)
+  JEditorPane$PageLoader$1.class (not open)
+  JEditorPane$PageLoader$2.class (not open)
+  JEditorPane$PageLoader$3.class (not open)
+  JEditorPane$PageLoader.class (not open)
+  JEditorPane$PlainEditorKit$PlainParagraph$LogicalView.class (not open)
+  JEditorPane$PlainEditorKit$PlainParagraph.class (not open)
+  JEditorPane$PlainEditorKit.class (not open)
+  JEditorPane.class (not open)
+  JFileChooser$1.class (not open)
+  JFileChooser$AccessibleJFileChooser.class (not open)
+  JFileChooser$FCHierarchyListener.class (not open)
+  JFileChooser$WeakPCL.class (not open)
+  JFileChooser.class (not open)
+  JFormattedTextField$AbstractFormatter.class (not open)
+  JFormattedTextField$AbstractFormatterFactory.class (not open)
+  JFormattedTextField$CancelAction.class (not open)
+  JFormattedTextField$CommitAction.class (not open)
+  JFormattedTextField$DocumentHandler.class (not open)
+  JFormattedTextField$FocusLostHandler.class (not open)
+  JFormattedTextField.class (not open)
+  JFrame$AccessibleJFrame.class (not open)
+  JFrame.class (not open)
+  JInternalFrame$AccessibleJInternalFrame.class (not open)
+  JInternalFrame$FocusPropertyChangeListener.class (not open)
+  JInternalFrame$JDesktopIcon$AccessibleJDesktopIcon.class (not open)
+  JInternalFrame$JDesktopIcon.class
+    class JDesktopIcon
+  JInternalFrame.class (not open)
+  JLabel$AccessibleJLabel$LabelKeyBinding.class (not open)
+  JLabel$AccessibleJLabel.class (not open)
+  JLabel.class (not open)
+  JLayer$1.class (not open)
+  JLayer$DefaultLayerGlassPane.class (not open)
+  JLayer$LayerEventController$1.class (not open)
+  JLayer$LayerEventController$2.class (not open)
+  JLayer$LayerEventController.class (not open)
+  JLayer.class (not open)
+  JLayeredPane$AccessibleJLayeredPane.class (not open)
+  JLayeredPane.class (not open)
+  JList$1.class (not open)
+  JList$2.class (not open)
+  JList$3.class (not open)
+  JList$4.class (not open)
+  JList$5.class (not open)
+  JList$6.class (not open)
+  JList$AccessibleJList$AccessibleJListChild.class (not open)
+  JList$AccessibleJList.class (not open)
+  JList$DropLocation.class (not open)
+  JList$ListSelectionHandler.class (not open)
+  JList.class (not open)
+  JMenu$1.class (not open)
+  JMenu$AccessibleJMenu.class (not open)
+  JMenu$MenuChangeListener.class (not open)
+  JMenu$WinListener.class (not open)
+  JMenu.class (not open)
+  JMenuBar$AccessibleJMenuBar.class (not open)
+  JMenuBar.class (not open)
+  JMenuItem$AccessibleJMenuItem.class (not open)
+  JMenuItem$MenuItemFocusListener.class (not open)
+  JMenuItem.class (not open)
+  JOptionPane$1.class (not open)
+  JOptionPane$2.class (not open)
+  JOptionPane$3.class (not open)
+  JOptionPane$4.class (not open)
+  JOptionPane$5.class (not open)
+  JOptionPane$AccessibleJOptionPane.class (not open)
+  JOptionPane.class (not open)
+  JPanel$AccessibleJPanel.class (not open)
+  JPanel.class (not open)
+  JPasswordField$AccessibleJPasswordField.class (not open)
+  JPasswordField.class (not open)
+  JPopupMenu$1.class (not open)
+  JPopupMenu$AccessibleJPopupMenu.class (not open)
+  JPopupMenu$Separator.class (not open)
+  JPopupMenu.class (not open)
+  JProgressBar$AccessibleJProgressBar.class (not open)
+  JProgressBar$ModelListener.class (not open)
+  JProgressBar.class (not open)
+  JRadioButton$AccessibleJRadioButton.class (not open)
+  JRadioButton.class (not open)
+  JRadioButtonMenuItem$AccessibleJRadioButtonMenuItem.class (not open)
+  JRadioButtonMenuItem.class (not open)
+  JRootPane$1.class (not open)
+  JRootPane$AccessibleJRootPane.class (not open)
+  JRootPane$RootLayout.class (not open)
+  JRootPane.class (not open)
+  JScrollBar$AccessibleJScrollBar.class (not open)
+  JScrollBar$ModelListener.class (not open)
+  JScrollBar.class (not open)
+  JScrollPane$AccessibleJScrollPane.class (not open)
+  JScrollPane$ScrollBar.class (not open)
+  JScrollPane.class (not open)
+  JSeparator$AccessibleJSeparator.class (not open)
+  JSeparator.class (not open)
+  JSlider$1SmartHashtable$LabelUIResource.class (not open)
+  JSlider$1SmartHashtable.class (not open)
+  JSlider$AccessibleJSlider.class (not open)
+  JSlider$ModelListener.class (not open)
+  JSlider.class (not open)
+  JSpinner$AccessibleJSpinner.class (not open)
+  JSpinner$DateEditor.class (not open)
+  JSpinner$DateEditorFormatter.class (not open)
+  JSpinner$DefaultEditor.class (not open)
+  JSpinner$DisabledAction.class (not open)
+  JSpinner$ListEditor$ListFormatter$Filter.class (not open)
+  JSpinner$ListEditor$ListFormatter.class (not open)
+  JSpinner$ListEditor.class (not open)
+  JSpinner$ModelListener.class (not open)
+  JSpinner$NumberEditor.class (not open)
+  JSpinner$NumberEditorFormatter.class (not open)
+  JSpinner.class (not open)
+  JSplitPane$AccessibleJSplitPane.class (not open)
+  JSplitPane.class (not open)
+  JTabbedPane$AccessibleJTabbedPane.class (not open)
+  JTabbedPane$ModelListener.class (not open)
+  JTabbedPane$Page.class (not open)
+  JTabbedPane.class (not open)
+  JTable$1.class (not open)
+  JTable$2.class (not open)
+  JTable$3.class (not open)
+  JTable$4.class (not open)
+  JTable$5.class (not open)
+  JTable$6.class (not open)
+  JTable$AccessibleJTable$AccessibleJTableCell.class (not open)
+  JTable$AccessibleJTable$AccessibleJTableHeaderCell.class (not open)
+  JTable$AccessibleJTable$AccessibleJTableModelChange.class (not open)
+  JTable$AccessibleJTable$AccessibleTableHeader.class (not open)
+  JTable$AccessibleJTable.class (not open)
+  JTable$BooleanEditor.class (not open)
+  JTable$BooleanRenderer.class (not open)
+  JTable$CellEditorRemover.class (not open)
+  JTable$DateRenderer.class (not open)
+  JTable$DoubleRenderer.class (not open)
+  JTable$DropLocation.class (not open)
+  JTable$GenericEditor.class (not open)
+  JTable$IconRenderer.class (not open)
+  JTable$ModelChange.class (not open)
+  JTable$NumberEditor.class (not open)
+  JTable$NumberRenderer.class (not open)
+  JTable$PrintMode.class (not open)
+  JTable$Resizable2.class (not open)
+  JTable$Resizable3.class (not open)
+  JTable$SortManager.class (not open)
+  JTable$ThreadSafePrintable$1.class (not open)
+  JTable$ThreadSafePrintable.class (not open)
+  JTable.class (not open)
+  JTextArea$AccessibleJTextArea.class (not open)
+  JTextArea.class (not open)
+  JTextField$AccessibleJTextField.class (not open)
+  JTextField$NotifyAction.class (not open)
+  JTextField$ScrollRepainter.class (not open)
+  JTextField$TextFieldActionPropertyChangeListener.class (not open)
+  JTextField.class (not open)
+  JTextPane.class (not open)
+  JToggleButton$1.class (not open)
+  JToggleButton$AccessibleJToggleButton.class (not open)
+  JToggleButton$ToggleButtonModel.class (not open)
+  JToggleButton.class (not open)
+  JToolBar$1.class (not open)
+  JToolBar$AccessibleJToolBar.class (not open)
+  JToolBar$DefaultToolBarLayout.class (not open)
+  JToolBar$Separator.class (not open)
+  JToolBar.class (not open)
+  JToolTip$AccessibleJToolTip.class (not open)
+  JToolTip.class (not open)
+  JTree$1.class (not open)
+  JTree$AccessibleJTree$AccessibleJTreeNode.class (not open)
+  JTree$AccessibleJTree.class (not open)
+  JTree$DropLocation.class (not open)
+  JTree$DynamicUtilTreeNode.class (not open)
+  JTree$EmptySelectionModel.class (not open)
+  JTree$TreeModelHandler.class (not open)
+  JTree$TreeSelectionRedirector.class (not open)
+  JTree$TreeTimer.class (not open)
+  JTree.class (not open)
+  JViewport$1.class (not open)
+  JViewport$AccessibleJViewport.class (not open)
+  JViewport$BackingStoreMultiResolutionImage.class (not open)
+  JViewport$ViewListener.class (not open)
+  JViewport.class (not open)
+  JWindow$AccessibleJWindow.class (not open)
+  JWindow.class (not open)
+  KeyStroke$1.class (not open)
+  KeyStroke.class (not open)
+  KeyboardManager$ComponentKeyStrokePair.class (not open)
+  KeyboardManager.class (not open)
+  LayoutComparator.class (not open)
+  LayoutFocusTraversalPolicy.class (not open)
+  LayoutStyle$ComponentPlacement.class (not open)
+  LayoutStyle.class (not open)
+  LegacyGlueFocusTraversalPolicy.class (not open)
+  LegacyLayoutFocusTraversalPolicy.class (not open)
+  ListCellRenderer.class (not open)
+  ListModel.class (not open)
+  ListSelectionModel.class (not open)
+  LookAndFeel.class (not open)
+  MenuElement.class (not open)
+  MenuSelectionManager.class (not open)
+  MultiUIDefaults$1.class (not open)
+  MultiUIDefaults$MultiUIDefaultsEnumerator$Type.class (not open)
+  MultiUIDefaults$MultiUIDefaultsEnumerator.class (not open)
+  MultiUIDefaults.class (not open)
+  MutableComboBoxModel.class (not open)
+  OverlayLayout.class (not open)
+  Painter.class (not open)
+  Popup$DefaultFrame.class (not open)
+  Popup$HeavyWeightWindow.class (not open)
+  Popup.class (not open)
+  PopupFactory$1.class (not open)
+  PopupFactory$ContainerPopup.class (not open)
+  PopupFactory$HeadlessPopup.class (not open)
+  PopupFactory$HeavyWeightPopup$1.class (not open)
+  PopupFactory$HeavyWeightPopup.class (not open)
+  PopupFactory$LightWeightPopup.class (not open)
+  PopupFactory$MediumWeightPopup$MediumWeightComponent.class (not open)
+  PopupFactory$MediumWeightPopup.class (not open)
+  PopupFactory.class (not open)
+  ProgressMonitor$AccessibleProgressMonitor.class (not open)
+  ProgressMonitor$ProgressOptionPane$1.class (not open)
+  ProgressMonitor$ProgressOptionPane$2.class (not open)
+  ProgressMonitor$ProgressOptionPane.class (not open)
+  ProgressMonitor.class (not open)
+  ProgressMonitorInputStream.class (not open)
+  Renderer.class (not open)
+  RepaintManager$1.class (not open)
+  RepaintManager$2$1.class (not open)
+  RepaintManager$2.class (not open)
+  RepaintManager$3.class (not open)
+  RepaintManager$4.class (not open)
+  RepaintManager$DisplayChangedHandler.class (not open)
+  RepaintManager$DisplayChangedRunnable.class (not open)
+  RepaintManager$DoubleBufferInfo.class (not open)
+  RepaintManager$PaintManager.class (not open)
+  RepaintManager$ProcessingRunnable.class (not open)
+  RepaintManager.class (not open)
+  RootPaneContainer.class (not open)
+  RowFilter$1.class (not open)
+  RowFilter$AndFilter.class (not open)
+  RowFilter$ComparisonType.class (not open)
+  RowFilter$DateFilter.class (not open)
+  RowFilter$Entry.class (not open)
+  RowFilter$GeneralFilter.class (not open)
+  RowFilter$NotFilter.class (not open)
+  RowFilter$NumberFilter.class (not open)
+  RowFilter$OrFilter.class (not open)
+  RowFilter$RegexFilter.class (not open)
+  RowFilter.class (not open)
+  RowSorter$SortKey.class (not open)
+  RowSorter.class (not open)
+  ScrollPaneConstants.class (not open)
+  ScrollPaneLayout$UIResource.class (not open)
+  ScrollPaneLayout.class (not open)
+  Scrollable.class (not open)
+  SingleSelectionModel.class (not open)
+  SizeRequirements.class (not open)
+  SizeSequence.class (not open)
+  SortOrder.class (not open)
+  SortingFocusTraversalPolicy.class (not open)
+  SpinnerDateModel.class (not open)
+  SpinnerListModel.class (not open)
+  SpinnerModel.class (not open)
+  SpinnerNumberModel.class (not open)
+  Spring$AbstractSpring.class (not open)
+  Spring$CompoundSpring.class (not open)
+  Spring$HeightSpring.class (not open)
+  Spring$MaxSpring.class (not open)
+  Spring$NegativeSpring.class (not open)
+  Spring$ScaleSpring.class (not open)
+  Spring$SpringMap.class (not open)
+  Spring$StaticSpring.class (not open)
+  Spring$SumSpring.class (not open)
+  Spring$WidthSpring.class (not open)
+  Spring.class (not open)
+  SpringLayout$1.class (not open)
+  SpringLayout$Constraints$1.class (not open)
+  SpringLayout$Constraints$2.class (not open)
+  SpringLayout$Constraints.class (not open)
+  SpringLayout$SpringProxy.class (not open)
+  SpringLayout.class (not open)
+  SwingConstants.class (not open)
+  SwingContainer.class (not open)
+  SwingContainerOrderFocusTraversalPolicy.class (not open)
+  SwingDefaultFocusTraversalPolicy.class (not open)
+  SwingHeavyWeight.class (not open)
+  SwingPaintEventDispatcher.class (not open)
+  SwingUtilities$SharedOwnerFrame.class (not open)
+  SwingUtilities.class (not open)
+  SwingWorker$1.class (not open)
+  SwingWorker$2.class (not open)
+  SwingWorker$3.class (not open)
+  SwingWorker$4.class (not open)
+  SwingWorker$5.class (not open)
+  SwingWorker$6.class (not open)
+  SwingWorker$7$1.class (not open)
+  SwingWorker$7.class (not open)
+  SwingWorker$DoSubmitAccumulativeRunnable.class (not open)
+  SwingWorker$StateValue.class (not open)
+  SwingWorker$SwingWorkerPropertyChangeSupport$1.class (not open)
+  SwingWorker$SwingWorkerPropertyChangeSupport.class (not open)
+  SwingWorker.class (not open)
+  TablePrintable.class (not open)
+  Timer$1.class (not open)
+  Timer$DoPostEvent.class (not open)
+  Timer.class (not open)
+  TimerQueue$DelayedTimer.class (not open)
+  TimerQueue.class (not open)
+  ToolTipManager$1.class (not open)
+  ToolTipManager$AccessibilityKeyListener.class (not open)
+  ToolTipManager$MoveBeforeEnterListener.class (not open)
+  ToolTipManager$insideTimerAction.class (not open)
+  ToolTipManager$outsideTimerAction.class (not open)
+  ToolTipManager$stillInsideTimerAction.class (not open)
+  ToolTipManager.class (not open)
+  TransferHandler$DragHandler.class (not open)
+  TransferHandler$DropHandler.class (not open)
+  TransferHandler$DropLocation.class (not open)
+  TransferHandler$HasGetTransferHandler.class (not open)
+  TransferHandler$PropertyTransferable.class (not open)
+  TransferHandler$SwingDragGestureRecognizer.class (not open)
+  TransferHandler$SwingDropTarget.class (not open)
+  TransferHandler$TransferAction$1.class (not open)
+  TransferHandler$TransferAction$2.class (not open)
+  TransferHandler$TransferAction.class (not open)
+  TransferHandler$TransferSupport.class (not open)
+  TransferHandler.class (not open)
+  UIClientPropertyKey.class (not open)
+  UIDefaults$1.class (not open)
+  UIDefaults$ActiveValue.class (not open)
+  UIDefaults$LazyInputMap.class (not open)
+  UIDefaults$LazyValue.class (not open)
+  UIDefaults$ProxyLazyValue$1.class (not open)
+  UIDefaults$ProxyLazyValue.class (not open)
+  UIDefaults$TextAndMnemonicHashMap.class (not open)
+  UIDefaults.class (not open)
+  UIManager$1.class (not open)
+  UIManager$2.class (not open)
+  UIManager$LAFState.class (not open)
+  UIManager$LookAndFeelInfo.class (not open)
+  UIManager.class (not open)
+  UnsupportedLookAndFeelException.class (not open)
+  ViewportLayout.class (not open)
+  WindowConstants.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.733
+!MESSAGE Cannot handle java.awt.geom (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.734
+!MESSAGE Cannot handle javax.sound.midi (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.736
+!MESSAGE Cannot handle jdk.internal.icu.impl (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.737
+!MESSAGE Cannot handle java.awt (not open) [in <module:java.datatransfer>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.738
+!MESSAGE Cannot handle javax.sql.rowset.serial (not open) [in <module:java.sql.rowset>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.739
+!MESSAGE Cannot handle javax.crypto.interfaces (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.740
+!MESSAGE Cannot handle javax.sound.sampled (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.741
+!MESSAGE Cannot handle javax.swing.plaf (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.743
+!MESSAGE Cannot handle java.security.spec (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.744
+!MESSAGE Cannot handle javax.swing.plaf.metal.icons (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.745
+!MESSAGE Cannot handle jdk.internal.org.objectweb (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.746
+!MESSAGE Cannot handle javax.tools (not open) [in <module:java.compiler>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.747
+!MESSAGE Cannot handle java.nio.channels (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.748
+!MESSAGE Cannot handle jdk.internal.org.jline (not open) [in <module:jdk.internal.le>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.749
+!MESSAGE Cannot handle javax.sql (not open) [in <module:java.sql>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.751
+!MESSAGE Cannot handle javax.security (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.752
+!MESSAGE Cannot handle java.io [in <module:java.base>]
+  Bits.class (not open)
+  BufferedInputStream.class (not open)
+  BufferedOutputStream.class (not open)
+  BufferedReader$1.class (not open)
+  BufferedReader.class
+    class BufferedReader
+  BufferedWriter.class (not open)
+  ByteArrayInputStream.class (not open)
+  ByteArrayOutputStream.class (not open)
+  CharArrayReader.class (not open)
+  CharArrayWriter.class (not open)
+  CharConversionException.class (not open)
+  Closeable.class
+    interface Closeable
+  Console$1.class (not open)
+  Console$2.class (not open)
+  Console$3.class (not open)
+  Console$LineReader.class (not open)
+  Console.class (not open)
+  DataInput.class (not open)
+  DataInputStream.class (not open)
+  DataOutput.class (not open)
+  DataOutputStream.class (not open)
+  DefaultFileSystem.class (not open)
+  DeleteOnExitHook$1.class (not open)
+  DeleteOnExitHook.class (not open)
+  EOFException.class (not open)
+  ExpiringCache$1.class (not open)
+  ExpiringCache$Entry.class (not open)
+  ExpiringCache.class (not open)
+  Externalizable.class (not open)
+  File$PathStatus.class (not open)
+  File$TempDirectory.class (not open)
+  File.class (not open)
+  FileCleanable.class (not open)
+  FileDescriptor$1.class (not open)
+  FileDescriptor.class (not open)
+  FileFilter.class (not open)
+  FileInputStream$1.class (not open)
+  FileInputStream.class (not open)
+  FileNotFoundException.class (not open)
+  FileOutputStream$1.class (not open)
+  FileOutputStream.class (not open)
+  FilePermission$1.class (not open)
+  FilePermission$2.class (not open)
+  FilePermission.class (not open)
+  FilePermissionCollection$1.class (not open)
+  FilePermissionCollection.class (not open)
+  FileReader.class (not open)
+  FileSystem.class (not open)
+  FileWriter.class (not open)
+  FilenameFilter.class (not open)
+  FilterInputStream.class (not open)
+  FilterOutputStream.class (not open)
+  FilterReader.class (not open)
+  FilterWriter.class (not open)
+  Flushable.class (not open)
+  IOError.class (not open)
+  IOException.class (not open)
+  InputStream$1.class (not open)
+  InputStream.class
+    class InputStream
+  InputStreamReader.class (not open)
+  InterruptedIOException.class (not open)
+  InvalidClassException.class (not open)
+  InvalidObjectException.class (not open)
+  LineNumberInputStream.class (not open)
+  LineNumberReader.class (not open)
+  NotActiveException.class (not open)
+  NotSerializableException.class (not open)
+  ObjectInput.class (not open)
+  ObjectInputFilter$Config$Global.class (not open)
+  ObjectInputFilter$Config.class (not open)
+  ObjectInputFilter$FilterInfo.class (not open)
+  ObjectInputFilter$Status.class (not open)
+  ObjectInputFilter.class (not open)
+  ObjectInputStream$1.class (not open)
+  ObjectInputStream$BlockDataInputStream.class (not open)
+  ObjectInputStream$Caches.class (not open)
+  ObjectInputStream$FieldValues.class (not open)
+  ObjectInputStream$FilterValues.class (not open)
+  ObjectInputStream$GetField.class (not open)
+  ObjectInputStream$GetFieldImpl.class (not open)
+  ObjectInputStream$HandleTable$HandleList.class (not open)
+  ObjectInputStream$HandleTable.class (not open)
+  ObjectInputStream$Logging.class (not open)
+  ObjectInputStream$PeekInputStream.class (not open)
+  ObjectInputStream$ValidationList$1.class (not open)
+  ObjectInputStream$ValidationList$Callback.class (not open)
+  ObjectInputStream$ValidationList.class (not open)
+  ObjectInputStream.class (not open)
+  ObjectInputValidation.class (not open)
+  ObjectOutput.class (not open)
+  ObjectOutputStream$1.class (not open)
+  ObjectOutputStream$BlockDataOutputStream.class (not open)
+  ObjectOutputStream$Caches.class (not open)
+  ObjectOutputStream$DebugTraceInfoStack.class (not open)
+  ObjectOutputStream$HandleTable.class (not open)
+  ObjectOutputStream$PutField.class (not open)
+  ObjectOutputStream$PutFieldImpl.class (not open)
+  ObjectOutputStream$ReplaceTable.class (not open)
+  ObjectOutputStream.class (not open)
+  ObjectStreamClass$1.class (not open)
+  ObjectStreamClass$2.class (not open)
+  ObjectStreamClass$3.class (not open)
+  ObjectStreamClass$4.class (not open)
+  ObjectStreamClass$5.class (not open)
+  ObjectStreamClass$Caches.class (not open)
+  ObjectStreamClass$ClassDataSlot.class (not open)
+  ObjectStreamClass$DeserializationConstructorsCache$Key$Impl.class (not open)
+  ObjectStreamClass$DeserializationConstructorsCache$Key$Lookup.class (not open)
+  ObjectStreamClass$DeserializationConstructorsCache$Key.class (not open)
+  ObjectStreamClass$DeserializationConstructorsCache.class (not open)
+  ObjectStreamClass$EntryFuture$1.class (not open)
+  ObjectStreamClass$EntryFuture.class (not open)
+  ObjectStreamClass$ExceptionInfo.class (not open)
+  ObjectStreamClass$FieldReflector.class (not open)
+  ObjectStreamClass$FieldReflectorKey.class (not open)
+  ObjectStreamClass$MemberSignature.class (not open)
+  ObjectStreamClass$RecordSupport.class (not open)
+  ObjectStreamClass$WeakClassKey.class (not open)
+  ObjectStreamClass.class (not open)
+  ObjectStreamConstants.class (not open)
+  ObjectStreamException.class (not open)
+  ObjectStreamField.class
+    class ObjectStreamField
+  OptionalDataException.class (not open)
+  OutputStream$1.class (not open)
+  OutputStream.class (not open)
+  OutputStreamWriter.class (not open)
+  PipedInputStream.class (not open)
+  PipedOutputStream.class (not open)
+  PipedReader.class (not open)
+  PipedWriter.class (not open)
+  PrintStream.class (not open)
+  PrintWriter.class (not open)
+  PushbackInputStream.class (not open)
+  PushbackReader.class (not open)
+  RandomAccessFile$1.class (not open)
+  RandomAccessFile$2.class (not open)
+  RandomAccessFile.class (not open)
+  Reader$1.class (not open)
+  Reader.class
+    class Reader
+  SequenceInputStream.class (not open)
+  Serial.class (not open)
+  SerialCallbackContext.class (not open)
+  Serializable.class
+    interface Serializable
+  SerializablePermission.class (not open)
+  StreamCorruptedException.class (not open)
+  StreamTokenizer.class (not open)
+  StringBufferInputStream.class (not open)
+  StringReader.class (not open)
+  StringWriter.class (not open)
+  SyncFailedException.class (not open)
+  UTFDataFormatException.class (not open)
+  UncheckedIOException.class (not open)
+  UnsupportedEncodingException.class
+    class UnsupportedEncodingException
+  WinNTFileSystem.class (not open)
+  WriteAbortedException.class (not open)
+  Writer$1.class (not open)
+  Writer.class
+    class Writer as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.753
+!MESSAGE Cannot handle jdk.javadoc.internal.doclets.toolkit.resources (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.754
+!MESSAGE Cannot handle jdk.jfr (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.756
+!MESSAGE Cannot handle jdk.internal.net.http.common (not open) [in <module:java.net.http>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.757
+!MESSAGE Cannot handle java.awt.color (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.758
+!MESSAGE Cannot handle java.lang [in <module:java.instrument>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.759
+!MESSAGE Cannot handle jdk.javadoc.internal.doclets.toolkit (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.760
+!MESSAGE Cannot handle java.rmi.dgc (not open) [in <module:java.rmi>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.761
+!MESSAGE Cannot handle javax.sql.rowset (not open) [in <module:java.sql.rowset>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.762
+!MESSAGE Cannot handle javax.swing.plaf.multi (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.763
+!MESSAGE Cannot handle java.net [in <module:java.base>]
+  AbstractPlainDatagramSocketImpl.class (not open)
+  AbstractPlainSocketImpl.class (not open)
+  Authenticator$RequestorType.class (not open)
+  Authenticator.class (not open)
+  BindException.class (not open)
+  CacheRequest.class (not open)
+  CacheResponse.class (not open)
+  ConnectException.class (not open)
+  ContentHandler.class (not open)
+  ContentHandlerFactory.class (not open)
+  CookieHandler.class (not open)
+  CookieManager$CookieComparator.class (not open)
+  CookieManager.class (not open)
+  CookiePolicy$1.class (not open)
+  CookiePolicy$2.class (not open)
+  CookiePolicy$3.class (not open)
+  CookiePolicy.class (not open)
+  CookieStore.class (not open)
+  DatagramPacket.class (not open)
+  DatagramSocket$1.class (not open)
+  DatagramSocket.class (not open)
+  DatagramSocketImpl.class (not open)
+  DatagramSocketImplFactory.class (not open)
+  DefaultDatagramSocketImplFactory.class (not open)
+  DefaultInterface.class (not open)
+  DelegatingSocketImpl.class (not open)
+  DualStackPlainDatagramSocketImpl.class (not open)
+  FactoryURLClassLoader.class (not open)
+  FileNameMap.class (not open)
+  HostPortrange.class (not open)
+  HttpConnectSocketImpl$1.class (not open)
+  HttpConnectSocketImpl$2.class (not open)
+  HttpConnectSocketImpl.class (not open)
+  HttpCookie$1.class (not open)
+  HttpCookie$10.class (not open)
+  HttpCookie$11.class (not open)
+  HttpCookie$12.class (not open)
+  HttpCookie$2.class (not open)
+  HttpCookie$3.class (not open)
+  HttpCookie$4.class (not open)
+  HttpCookie$5.class (not open)
+  HttpCookie$6.class (not open)
+  HttpCookie$7.class (not open)
+  HttpCookie$8.class (not open)
+  HttpCookie$9.class (not open)
+  HttpCookie$CookieAttributeAssignor.class (not open)
+  HttpCookie.class (not open)
+  HttpRetryException.class (not open)
+  HttpURLConnection.class (not open)
+  IDN$1.class (not open)
+  IDN.class (not open)
+  InMemoryCookieStore.class (not open)
+  Inet4Address.class (not open)
+  Inet4AddressImpl.class (not open)
+  Inet6Address$Inet6AddressHolder.class (not open)
+  Inet6Address.class (not open)
+  Inet6AddressImpl.class (not open)
+  InetAddress$1.class (not open)
+  InetAddress$Addresses.class (not open)
+  InetAddress$CachedAddresses.class (not open)
+  InetAddress$CachedLocalHost.class (not open)
+  InetAddress$HostsFileNameService.class (not open)
+  InetAddress$InetAddressHolder.class (not open)
+  InetAddress$NameService.class (not open)
+  InetAddress$NameServiceAddresses.class (not open)
+  InetAddress$PlatformNameService.class (not open)
+  InetAddress.class (not open)
+  InetAddressContainer.class (not open)
+  InetAddressImpl.class (not open)
+  InetAddressImplFactory.class (not open)
+  InetSocketAddress$InetSocketAddressHolder.class (not open)
+  InetSocketAddress.class (not open)
+  InterfaceAddress.class (not open)
+  JarURLConnection.class (not open)
+  MalformedURLException.class (not open)
+  MulticastSocket.class (not open)
+  NetMulticastSocket$1.class (not open)
+  NetMulticastSocket.class (not open)
+  NetPermission.class (not open)
+  NetworkInterface$1.class (not open)
+  NetworkInterface.class (not open)
+  NoRouteToHostException.class (not open)
+  PasswordAuthentication.class (not open)
+  PlainSocketImpl.class (not open)
+  PortUnreachableException.class (not open)
+  ProtocolException.class (not open)
+  ProtocolFamily.class (not open)
+  Proxy$Type.class (not open)
+  Proxy.class (not open)
+  ProxySelector$StaticProxySelector.class (not open)
+  ProxySelector.class (not open)
+  ResponseCache.class (not open)
+  SecureCacheResponse.class (not open)
+  ServerSocket.class (not open)
+  Socket$SocketInputStream.class (not open)
+  Socket$SocketOutputStream.class (not open)
+  Socket.class (not open)
+  SocketAddress.class (not open)
+  SocketCleanable.class (not open)
+  SocketException.class (not open)
+  SocketImpl.class (not open)
+  SocketImplFactory.class (not open)
+  SocketInputStream.class (not open)
+  SocketOption.class (not open)
+  SocketOptions.class (not open)
+  SocketOutputStream.class (not open)
+  SocketPermission$1.class (not open)
+  SocketPermission$EphemeralRange.class (not open)
+  SocketPermission.class (not open)
+  SocketPermissionCollection$1.class (not open)
+  SocketPermissionCollection.class (not open)
+  SocketTimeoutException.class (not open)
+  SocksConsts.class (not open)
+  SocksSocketImpl$1.class (not open)
+  SocksSocketImpl$2.class (not open)
+  SocksSocketImpl$3.class (not open)
+  SocksSocketImpl.class (not open)
+  StandardProtocolFamily.class (not open)
+  StandardSocketOptions$StdSocketOption.class (not open)
+  StandardSocketOptions.class (not open)
+  TwoStacksPlainDatagramSocketImpl.class (not open)
+  URI$1.class (not open)
+  URI$Parser.class (not open)
+  URI.class (not open)
+  URISyntaxException.class (not open)
+  URL$1.class (not open)
+  URL$2.class (not open)
+  URL$3.class (not open)
+  URL$DefaultFactory.class (not open)
+  URL.class
+    class URL
+  URLClassLoader$1.class (not open)
+  URLClassLoader$2.class (not open)
+  URLClassLoader$3$1.class (not open)
+  URLClassLoader$3.class (not open)
+  URLClassLoader$4.class (not open)
+  URLClassLoader$5.class (not open)
+  URLClassLoader$6.class (not open)
+  URLClassLoader.class (not open)
+  URLConnection$1.class (not open)
+  URLConnection$2.class (not open)
+  URLConnection.class (not open)
+  URLDecoder.class (not open)
+  URLEncoder.class (not open)
+  URLPermission$Authority.class (not open)
+  URLPermission.class (not open)
+  URLStreamHandler.class (not open)
+  URLStreamHandlerFactory.class (not open)
+  UnknownContentHandler.class (not open)
+  UnknownHostException.class (not open)
+  UnknownServiceException.class (not open)
+  UrlDeserializedState.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.764
+!MESSAGE Cannot handle java.awt.dnd.peer (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.765
+!MESSAGE Cannot handle java.awt.im (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.767
+!MESSAGE Cannot handle javax.lang.model.element (not open) [in <module:java.compiler>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.768
+!MESSAGE Cannot handle javax.xml.stream.events (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.769
+!MESSAGE Cannot handle javax.management (not open) [in <module:java.management>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.770
+!MESSAGE Cannot handle java.beans.beancontext (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.771
+!MESSAGE Cannot handle jdk.internal.org.jline.keymap (not open) [in <module:jdk.internal.le>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.772
+!MESSAGE Cannot handle jdk.internal.shellsupport.doc.resources (not open) [in <module:jdk.compiler>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.774
+!MESSAGE Cannot handle java.rmi.registry (not open) [in <module:java.rmi>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.775
+!MESSAGE Cannot handle java.time (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.776
+!MESSAGE Cannot handle jdk.internal.reflect (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.777
+!MESSAGE Cannot handle java.text.spi (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.779
+!MESSAGE Cannot handle jdk.internal.net.http.websocket (not open) [in <module:java.net.http>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.780
+!MESSAGE Cannot handle jdk.internal.jimage.decompressor (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.781
+!MESSAGE Cannot handle javax.management.modelmbean (not open) [in <module:java.management>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.783
+!MESSAGE Cannot handle java.awt.print (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.784
+!MESSAGE Cannot handle java.math (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.785
+!MESSAGE Cannot handle jdk.internal.agent.spi (not open) [in <module:jdk.management.agent>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.786
+!MESSAGE Cannot handle jdk.internal.org.objectweb.asm.tree.analysis (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.787
+!MESSAGE Cannot handle jdk.internal.foreign (not open) [in <module:jdk.incubator.foreign>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.788
+!MESSAGE Cannot handle javax.imageio.plugins.bmp (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.789
+!MESSAGE Cannot handle jdk.swing (not open) [in <module:jdk.unsupported.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.791
+!MESSAGE Cannot handle jdk.jfr.internal.types (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.792
+!MESSAGE Cannot handle javax.xml.transform.stream (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.793
+!MESSAGE Cannot handle jdk.internal.editor.external (not open) [in <module:jdk.internal.ed>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.794
+!MESSAGE Cannot handle javax.management.remote.rmi (not open) [in <module:java.management.rmi>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.795
+!MESSAGE Cannot handle jdk.internal.org.jline.reader (not open) [in <module:jdk.internal.le>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.796
+!MESSAGE Cannot handle jdk.security (not open) [in <module:jdk.jartool>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.798
+!MESSAGE Cannot handle java.awt.datatransfer (not open) [in <module:java.datatransfer>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.799
+!MESSAGE Cannot handle jdk.javadoc.internal.doclets.toolkit.util (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.800
+!MESSAGE Cannot handle java.awt.desktop (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.801
+!MESSAGE Cannot handle java.nio.file.spi (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.802
+!MESSAGE Cannot handle jdk.internal.ref (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.803
+!MESSAGE Cannot handle java.awt.dnd (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.805
+!MESSAGE Cannot handle jdk.internal.icu.impl.data.icudt67b (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.806
+!MESSAGE Cannot handle javax.imageio (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.807
+!MESSAGE Cannot handle javax.swing.table (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.808
+!MESSAGE Cannot handle jdk.jfr.internal.handlers (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.809
+!MESSAGE Cannot handle java.util.regex (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.810
+!MESSAGE Cannot handle jdk.internal.module (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.811
+!MESSAGE Cannot handle javax.xml.xpath (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.812
+!MESSAGE Cannot handle jdk.management (not open) [in <module:jdk.management.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.813
+!MESSAGE Cannot handle javax.security.auth.callback (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.814
+!MESSAGE Cannot handle jdk.nio.mapmode (not open) [in <module:jdk.nio.mapmode>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.815
+!MESSAGE Cannot handle jdk.internal.access.foreign (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.816
+!MESSAGE Cannot handle javax.imageio.plugins.tiff (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.817
+!MESSAGE Cannot handle jdk.internal.org.objectweb.asm.signature (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.817
+!MESSAGE Cannot handle javax.naming.spi (not open) [in <module:java.naming>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.818
+!MESSAGE Cannot handle javax.xml.transform (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.819
+!MESSAGE Cannot handle jdk.internal.org.xml.sax.helpers (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.820
+!MESSAGE Cannot handle jdk.javadoc.internal.doclets.toolkit.builders (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.821
+!MESSAGE Cannot handle jdk.internal.util.xml (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.822
+!MESSAGE Cannot handle jdk.jfr.internal.tool (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.823
+!MESSAGE Cannot handle jdk.jfr.internal.settings (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.825
+!MESSAGE Cannot handle jdk.internal.jrtfs (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.825
+!MESSAGE Cannot handle java.nio [in <module:java.base>]
+  Bits$1.class (not open)
+  Bits.class (not open)
+  Buffer$1.class (not open)
+  Buffer.class
+    class Buffer
+  BufferMismatch.class (not open)
+  BufferOverflowException.class (not open)
+  BufferUnderflowException.class (not open)
+  ByteBuffer.class (not open)
+  ByteBufferAsCharBufferB.class (not open)
+  ByteBufferAsCharBufferL.class (not open)
+  ByteBufferAsCharBufferRB.class (not open)
+  ByteBufferAsCharBufferRL.class (not open)
+  ByteBufferAsDoubleBufferB.class (not open)
+  ByteBufferAsDoubleBufferL.class (not open)
+  ByteBufferAsDoubleBufferRB.class (not open)
+  ByteBufferAsDoubleBufferRL.class (not open)
+  ByteBufferAsFloatBufferB.class (not open)
+  ByteBufferAsFloatBufferL.class (not open)
+  ByteBufferAsFloatBufferRB.class (not open)
+  ByteBufferAsFloatBufferRL.class (not open)
+  ByteBufferAsIntBufferB.class (not open)
+  ByteBufferAsIntBufferL.class (not open)
+  ByteBufferAsIntBufferRB.class (not open)
+  ByteBufferAsIntBufferRL.class (not open)
+  ByteBufferAsLongBufferB.class (not open)
+  ByteBufferAsLongBufferL.class (not open)
+  ByteBufferAsLongBufferRB.class (not open)
+  ByteBufferAsLongBufferRL.class (not open)
+  ByteBufferAsShortBufferB.class (not open)
+  ByteBufferAsShortBufferL.class (not open)
+  ByteBufferAsShortBufferRB.class (not open)
+  ByteBufferAsShortBufferRL.class (not open)
+  ByteOrder.class (not open)
+  CharBuffer.class
+    class CharBuffer
+  CharBufferSpliterator.class (not open)
+  DirectByteBuffer$Deallocator.class (not open)
+  DirectByteBuffer.class (not open)
+  DirectByteBufferR.class (not open)
+  DirectCharBufferRS.class (not open)
+  DirectCharBufferRU.class (not open)
+  DirectCharBufferS.class (not open)
+  DirectCharBufferU.class (not open)
+  DirectDoubleBufferRS.class (not open)
+  DirectDoubleBufferRU.class (not open)
+  DirectDoubleBufferS.class (not open)
+  DirectDoubleBufferU.class (not open)
+  DirectFloatBufferRS.class (not open)
+  DirectFloatBufferRU.class (not open)
+  DirectFloatBufferS.class (not open)
+  DirectFloatBufferU.class (not open)
+  DirectIntBufferRS.class (not open)
+  DirectIntBufferRU.class (not open)
+  DirectIntBufferS.class (not open)
+  DirectIntBufferU.class (not open)
+  DirectLongBufferRS.class (not open)
+  DirectLongBufferRU.class (not open)
+  DirectLongBufferS.class (not open)
+  DirectLongBufferU.class (not open)
+  DirectShortBufferRS.class (not open)
+  DirectShortBufferRU.class (not open)
+  DirectShortBufferS.class (not open)
+  DirectShortBufferU.class (not open)
+  DoubleBuffer.class (not open)
+  FloatBuffer.class (not open)
+  HeapByteBuffer.class (not open)
+  HeapByteBufferR.class (not open)
+  HeapCharBuffer.class (not open)
+  HeapCharBufferR.class (not open)
+  HeapDoubleBuffer.class (not open)
+  HeapDoubleBufferR.class (not open)
+  HeapFloatBuffer.class (not open)
+  HeapFloatBufferR.class (not open)
+  HeapIntBuffer.class (not open)
+  HeapIntBufferR.class (not open)
+  HeapLongBuffer.class (not open)
+  HeapLongBufferR.class (not open)
+  HeapShortBuffer.class (not open)
+  HeapShortBufferR.class (not open)
+  IntBuffer.class (not open)
+  InvalidMarkException.class (not open)
+  LongBuffer.class (not open)
+  MappedByteBuffer$1.class (not open)
+  MappedByteBuffer.class (not open)
+  MappedMemoryUtils.class (not open)
+  ReadOnlyBufferException.class (not open)
+  ShortBuffer.class (not open)
+  StringCharBuffer.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.826
+!MESSAGE Cannot handle javax.xml.stream (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.827
+!MESSAGE Cannot handle jdk.jfr.internal.dcmd (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.828
+!MESSAGE Cannot handle jdk.internal.misc (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.829
+!MESSAGE Cannot handle jdk.jshell.tool.resources (not open) [in <module:jdk.jshell>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.830
+!MESSAGE Cannot handle javax.security.auth (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.831
+!MESSAGE Cannot handle java.lang.management (not open) [in <module:java.management>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.832
+!MESSAGE Cannot handle java.nio.charset.spi (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.833
+!MESSAGE Cannot handle jdk.internal.util (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.833
+!MESSAGE Cannot handle javax.security.cert (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.834
+!MESSAGE Cannot handle jdk.javadoc.internal.doclets.formats.html.resources (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.835
+!MESSAGE Cannot handle jdk.jfr.internal.management (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.836
+!MESSAGE Cannot handle javax.xml.crypto.dom (not open) [in <module:java.xml.crypto>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.837
+!MESSAGE Cannot handle javax.naming.directory (not open) [in <module:java.naming>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.837
+!MESSAGE Cannot handle jdk.javadoc.internal.doclets.toolkit.taglets (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.838
+!MESSAGE Cannot handle jdk.management.jfr (not open) [in <module:jdk.management.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.839
+!MESSAGE Cannot handle java.util [in <module:java.logging>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.840
+!MESSAGE Cannot handle javax.transaction (not open) [in <module:java.transaction.xa>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.841
+!MESSAGE Cannot handle jdk.internal.net.http.frame (not open) [in <module:java.net.http>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.842
+!MESSAGE Cannot handle java.lang.reflect [in <module:java.base>]
+  AccessibleObject$Cache.class (not open)
+  AccessibleObject.class
+    class AccessibleObject
+  AnnotatedArrayType.class (not open)
+  AnnotatedElement.class
+    interface AnnotatedElement
+  AnnotatedParameterizedType.class (not open)
+  AnnotatedType.class
+    interface AnnotatedType
+  AnnotatedTypeVariable.class (not open)
+  AnnotatedWildcardType.class (not open)
+  Array.class (not open)
+  Constructor.class
+    class Constructor
+  Executable.class
+    class Executable
+  Field.class
+    class Field
+  GenericArrayType.class (not open)
+  GenericDeclaration.class
+    interface GenericDeclaration
+  GenericSignatureFormatError.class (not open)
+  InaccessibleObjectException.class (not open)
+  InvocationHandler.class (not open)
+  InvocationTargetException.class (not open)
+  MalformedParameterizedTypeException.class (not open)
+  MalformedParametersException.class (not open)
+  Member.class
+    interface Member
+  Method.class
+    class Method
+  Modifier.class (not open)
+  Parameter.class (not open)
+  ParameterizedType.class (not open)
+  Proxy$ProxyBuilder$1.class (not open)
+  Proxy$ProxyBuilder.class (not open)
+  Proxy.class (not open)
+  ProxyGenerator$1.class (not open)
+  ProxyGenerator$PrimitiveTypeInfo.class (not open)
+  ProxyGenerator$ProxyMethod.class (not open)
+  ProxyGenerator.class (not open)
+  RecordComponent.class
+    class RecordComponent
+  ReflectAccess.class (not open)
+  ReflectPermission.class (not open)
+  Type.class
+    interface Type
+  TypeVariable.class
+    interface TypeVariable
+  UndeclaredThrowableException.class (not open)
+  WildcardType.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.843
+!MESSAGE Cannot handle java.time.zone (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.844
+!MESSAGE Cannot handle javax.script (not open) [in <module:java.scripting>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.845
+!MESSAGE Cannot handle jdk.internal.org.jline.terminal (not open) [in <module:jdk.internal.le>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.846
+!MESSAGE Cannot handle java.awt.peer (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.847
+!MESSAGE Cannot handle jdk.internal.shellsupport (not open) [in <module:jdk.compiler>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.847
+!MESSAGE Cannot handle javax.management.remote (not open) [in <module:java.management>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.848
+!MESSAGE Cannot handle jdk.internal.icu.impl.data (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.849
+!MESSAGE Cannot handle jdk.jfr.events (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.850
+!MESSAGE Cannot handle jdk.jshell.spi (not open) [in <module:jdk.jshell>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.850
+!MESSAGE Cannot handle jdk.dynalink (not open) [in <module:jdk.dynalink>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.851
+!MESSAGE Cannot handle javax.print.attribute.standard [in <module:java.desktop>]
+  Chromaticity.class (not open)
+  ColorSupported.class (not open)
+  Compression.class (not open)
+  Copies.class (not open)
+  CopiesSupported.class (not open)
+  DateTimeAtCompleted.class (not open)
+  DateTimeAtCreation.class (not open)
+  DateTimeAtProcessing.class (not open)
+  Destination.class (not open)
+  DialogOwner$Accessor.class (not open)
+  DialogOwner.class (not open)
+  DialogTypeSelection.class (not open)
+  DocumentName.class (not open)
+  Fidelity.class (not open)
+  Finishings.class (not open)
+  JobHoldUntil.class (not open)
+  JobImpressions.class (not open)
+  JobImpressionsCompleted.class (not open)
+  JobImpressionsSupported.class (not open)
+  JobKOctets.class (not open)
+  JobKOctetsProcessed.class (not open)
+  JobKOctetsSupported.class (not open)
+  JobMediaSheets.class (not open)
+  JobMediaSheetsCompleted.class (not open)
+  JobMediaSheetsSupported.class (not open)
+  JobMessageFromOperator.class (not open)
+  JobName.class (not open)
+  JobOriginatingUserName.class (not open)
+  JobPriority.class (not open)
+  JobPrioritySupported.class (not open)
+  JobSheets.class (not open)
+  JobState.class (not open)
+  JobStateReason.class (not open)
+  JobStateReasons.class (not open)
+  Media.class (not open)
+  MediaName.class (not open)
+  MediaPrintableArea.class (not open)
+  MediaSize$Engineering.class (not open)
+  MediaSize$ISO.class (not open)
+  MediaSize$JIS.class
+    class JIS
+  MediaSize$NA.class (not open)
+  MediaSize$Other.class (not open)
+  MediaSize.class (not open)
+  MediaSizeName.class (not open)
+  MediaTray.class (not open)
+  MultipleDocumentHandling.class (not open)
+  NumberOfDocuments.class (not open)
+  NumberOfInterveningJobs.class (not open)
+  NumberUp.class (not open)
+  NumberUpSupported.class (not open)
+  OrientationRequested.class (not open)
+  OutputDeviceAssigned.class (not open)
+  PDLOverrideSupported.class (not open)
+  PageRanges.class (not open)
+  PagesPerMinute.class (not open)
+  PagesPerMinuteColor.class (not open)
+  PresentationDirection.class (not open)
+  PrintQuality.class (not open)
+  PrinterInfo.class (not open)
+  PrinterIsAcceptingJobs.class (not open)
+  PrinterLocation.class (not open)
+  PrinterMakeAndModel.class (not open)
+  PrinterMessageFromOperator.class (not open)
+  PrinterMoreInfo.class (not open)
+  PrinterMoreInfoManufacturer.class (not open)
+  PrinterName.class (not open)
+  PrinterResolution.class (not open)
+  PrinterState.class (not open)
+  PrinterStateReason.class (not open)
+  PrinterStateReasons$PrinterStateReasonSet.class (not open)
+  PrinterStateReasons$PrinterStateReasonSetIterator.class (not open)
+  PrinterStateReasons.class (not open)
+  PrinterURI.class (not open)
+  QueuedJobCount.class (not open)
+  ReferenceUriSchemesSupported.class (not open)
+  RequestingUserName.class (not open)
+  Severity.class (not open)
+  SheetCollate.class (not open)
+  Sides.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.852
+!MESSAGE Cannot handle java.util.concurrent.locks (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.853
+!MESSAGE Cannot handle javax.swing.text (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.854
+!MESSAGE Cannot handle jdk.jfr.internal.instrument (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.854
+!MESSAGE Cannot handle jdk.internal.org.objectweb.asm.commons (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.855
+!MESSAGE Cannot handle jdk.internal.vm (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.856
+!MESSAGE Cannot handle javax.swing.plaf.metal.icons.ocean (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.857
+!MESSAGE Cannot handle java.lang.ref (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.858
+!MESSAGE Cannot handle jdk.javadoc.internal.doclets.toolkit.util.links (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.859
+!MESSAGE Cannot handle javax.lang.model (not open) [in <module:java.compiler>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.860
+!MESSAGE Cannot handle javax.xml.crypto.dsig (not open) [in <module:java.xml.crypto>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.861
+!MESSAGE Cannot handle javax (not open) [in <module:java.rmi>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.862
+!MESSAGE Cannot handle java.lang.module (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.863
+!MESSAGE Cannot handle jdk.jfr.internal.consumer (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.864
+!MESSAGE Cannot handle jdk.javadoc (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.866
+!MESSAGE Cannot handle javax.naming.ldap.spi (not open) [in <module:java.naming>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.867
+!MESSAGE Cannot handle java.net.spi (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.868
+!MESSAGE Cannot handle javax.xml.crypto.dsig.keyinfo (not open) [in <module:java.xml.crypto>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.869
+!MESSAGE Cannot handle jdk.internal.net.http.hpack (not open) [in <module:java.net.http>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.869
+!MESSAGE Cannot handle jdk.internal.editor (not open) [in <module:jdk.internal.ed>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.870
+!MESSAGE Cannot handle java.time.temporal (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.871
+!MESSAGE Cannot handle javax.crypto.spec (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.872
+!MESSAGE Cannot handle javax.swing.tree (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.873
+!MESSAGE Cannot handle java.util.zip (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.874
+!MESSAGE Cannot handle java.rmi (not open) [in <module:java.rmi>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.875
+!MESSAGE Cannot handle javax.swing.plaf.synth (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.876
+!MESSAGE Cannot handle jdk.internal.agent (not open) [in <module:jdk.management.agent>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.877
+!MESSAGE Cannot handle jdk.internal.shellsupport.doc (not open) [in <module:jdk.compiler>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.878
+!MESSAGE Cannot handle jdk.javadoc.internal.tool.resources (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.879
+!MESSAGE Cannot handle javax.xml.stream.util (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.880
+!MESSAGE Cannot handle javax.security.sasl (not open) [in <module:java.security.sasl>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.881
+!MESSAGE Cannot handle java.nio.file.attribute (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.881
+!MESSAGE Cannot handle jdk.internal.org.jline.terminal.spi (not open) [in <module:jdk.internal.le>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.882
+!MESSAGE Cannot handle javax.sound.midi.spi (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.883
+!MESSAGE Cannot handle jdk.internal.org.objectweb.asm (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.884
+!MESSAGE Cannot handle jdk.dynalink.internal (not open) [in <module:jdk.dynalink>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.885
+!MESSAGE Cannot handle java.sql (not open) [in <module:java.sql>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.885
+!MESSAGE Cannot handle java.security [in <module:java.base>]
+  AccessControlContext$1.class (not open)
+  AccessControlContext.class (not open)
+  AccessControlException.class (not open)
+  AccessController$AccHolder.class (not open)
+  AccessController.class (not open)
+  AlgorithmConstraints.class (not open)
+  AlgorithmParameterGenerator.class (not open)
+  AlgorithmParameterGeneratorSpi.class (not open)
+  AlgorithmParameters.class (not open)
+  AlgorithmParametersSpi.class (not open)
+  AllPermission.class (not open)
+  AllPermissionCollection$1.class (not open)
+  AllPermissionCollection.class (not open)
+  AuthProvider.class (not open)
+  BasicPermission.class (not open)
+  BasicPermissionCollection.class (not open)
+  Certificate.class (not open)
+  CodeSigner.class (not open)
+  CodeSource.class (not open)
+  CryptoPrimitive.class (not open)
+  DigestException.class (not open)
+  DigestInputStream.class (not open)
+  DigestOutputStream.class (not open)
+  DomainCombiner.class (not open)
+  DomainLoadStoreParameter.class (not open)
+  DrbgParameters$Capability.class (not open)
+  DrbgParameters$Instantiation.class (not open)
+  DrbgParameters$NextBytes.class (not open)
+  DrbgParameters$Reseed.class (not open)
+  DrbgParameters.class (not open)
+  GeneralSecurityException.class (not open)
+  Guard.class (not open)
+  GuardedObject.class (not open)
+  Identity.class (not open)
+  IdentityScope$1.class (not open)
+  IdentityScope.class (not open)
+  InvalidAlgorithmParameterException.class (not open)
+  InvalidKeyException.class (not open)
+  InvalidParameterException.class (not open)
+  Key.class (not open)
+  KeyException.class (not open)
+  KeyFactory.class (not open)
+  KeyFactorySpi.class (not open)
+  KeyManagementException.class (not open)
+  KeyPair.class (not open)
+  KeyPairGenerator$Delegate.class (not open)
+  KeyPairGenerator.class (not open)
+  KeyPairGeneratorSpi.class (not open)
+  KeyRep$Type.class (not open)
+  KeyRep.class (not open)
+  KeyStore$1.class (not open)
+  KeyStore$Builder$1.class (not open)
+  KeyStore$Builder$2$1.class (not open)
+  KeyStore$Builder$2.class (not open)
+  KeyStore$Builder$FileBuilder$1.class (not open)
+  KeyStore$Builder$FileBuilder.class (not open)
+  KeyStore$Builder.class (not open)
+  KeyStore$CallbackHandlerProtection.class (not open)
+  KeyStore$Entry$Attribute.class (not open)
+  KeyStore$Entry.class (not open)
+  KeyStore$LoadStoreParameter.class (not open)
+  KeyStore$PasswordProtection.class (not open)
+  KeyStore$PrivateKeyEntry.class (not open)
+  KeyStore$ProtectionParameter.class (not open)
+  KeyStore$SecretKeyEntry.class (not open)
+  KeyStore$SimpleLoadStoreParameter.class (not open)
+  KeyStore$TrustedCertificateEntry.class (not open)
+  KeyStore.class (not open)
+  KeyStoreException.class (not open)
+  KeyStoreSpi.class (not open)
+  MessageDigest$Delegate$CloneableDelegate.class (not open)
+  MessageDigest$Delegate.class (not open)
+  MessageDigest.class (not open)
+  MessageDigestSpi.class (not open)
+  NoSuchAlgorithmException.class (not open)
+  NoSuchProviderException.class (not open)
+  PKCS12Attribute.class (not open)
+  Permission.class (not open)
+  PermissionCollection.class (not open)
+  Permissions$1.class (not open)
+  Permissions.class (not open)
+  PermissionsEnumerator.class (not open)
+  PermissionsHash.class (not open)
+  Policy$1.class (not open)
+  Policy$2.class (not open)
+  Policy$3.class (not open)
+  Policy$Parameters.class (not open)
+  Policy$PolicyDelegate.class (not open)
+  Policy$PolicyInfo.class (not open)
+  Policy$UnsupportedEmptyCollection.class (not open)
+  Policy.class (not open)
+  PolicySpi.class (not open)
+  Principal.class (not open)
+  PrivateKey.class (not open)
+  PrivilegedAction.class (not open)
+  PrivilegedActionException.class (not open)
+  PrivilegedExceptionAction.class (not open)
+  ProtectionDomain$1.class (not open)
+  ProtectionDomain$DebugHolder.class (not open)
+  ProtectionDomain$JavaSecurityAccessImpl$1.class (not open)
+  ProtectionDomain$JavaSecurityAccessImpl.class (not open)
+  ProtectionDomain$Key.class (not open)
+  ProtectionDomain.class
+    class ProtectionDomain
+  Provider$EngineDescription.class (not open)
+  Provider$Service.class (not open)
+  Provider$ServiceKey.class (not open)
+  Provider$UString.class (not open)
+  Provider.class (not open)
+  ProviderException.class (not open)
+  PublicKey.class (not open)
+  SecureClassLoader$1.class (not open)
+  SecureClassLoader$CodeSourceKey.class (not open)
+  SecureClassLoader$DebugHolder.class (not open)
+  SecureClassLoader.class (not open)
+  SecureRandom$1.class (not open)
+  SecureRandom$StrongPatternHolder.class (not open)
+  SecureRandom.class (not open)
+  SecureRandomParameters.class (not open)
+  SecureRandomSpi.class (not open)
+  Security$1.class (not open)
+  Security$ProviderProperty.class (not open)
+  Security.class (not open)
+  SecurityPermission.class (not open)
+  Signature$1.class (not open)
+  Signature$CipherAdapter.class (not open)
+  Signature$Delegate$CloneableDelegate.class (not open)
+  Signature$Delegate.class (not open)
+  Signature.class (not open)
+  SignatureException.class (not open)
+  SignatureSpi.class (not open)
+  SignedObject.class (not open)
+  Signer$1.class (not open)
+  Signer.class (not open)
+  Timestamp.class (not open)
+  URIParameter.class (not open)
+  UnrecoverableEntryException.class (not open)
+  UnrecoverableKeyException.class (not open)
+  UnresolvedPermission.class (not open)
+  UnresolvedPermissionCollection$1.class (not open)
+  UnresolvedPermissionCollection.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.886
+!MESSAGE Cannot handle javax.transaction.xa (not open) [in <module:java.transaction.xa>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.887
+!MESSAGE Cannot handle javax.swing.text.rtf (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.888
+!MESSAGE Cannot handle javax.xml (not open) [in <module:java.xml.crypto>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.889
+!MESSAGE Cannot handle jdk.swing.interop (not open) [in <module:jdk.unsupported.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.890
+!MESSAGE Cannot handle javax.annotation (not open) [in <module:java.compiler>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.890
+!MESSAGE Cannot handle jdk.internal.jshell (not open) [in <module:jdk.jshell>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.891
+!MESSAGE Cannot handle javax.sound (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.893
+!MESSAGE Cannot handle jdk.internal.util.jar (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.894
+!MESSAGE Cannot handle javax.net.ssl (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.894
+!MESSAGE Cannot handle javax.sql.rowset.spi (not open) [in <module:java.sql.rowset>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.895
+!MESSAGE Cannot handle javax.xml.crypto.dsig.spec (not open) [in <module:java.xml.crypto>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.896
+!MESSAGE Cannot handle jdk.internal.util.xml.impl (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.897
+!MESSAGE Cannot handle jdk.javadoc.internal.doclets.formats (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.897
+!MESSAGE Cannot handle javax.print.attribute (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.898
+!MESSAGE Cannot handle jdk.internal.event (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.899
+!MESSAGE Cannot handle javax.security.auth.kerberos (not open) [in <module:java.security.jgss>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.900
+!MESSAGE Cannot handle jdk.internal.jshell.debug (not open) [in <module:jdk.jshell>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.901
+!MESSAGE Cannot handle java.awt.im.spi (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.901
+!MESSAGE Cannot handle jdk.javadoc.internal (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.902
+!MESSAGE Cannot handle jdk (not open) [in <module:jdk.net>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.903
+!MESSAGE Cannot handle javax.naming.event (not open) [in <module:java.naming>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.904
+!MESSAGE Cannot handle jdk.javadoc.internal.doclets.formats.html (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.904
+!MESSAGE Cannot handle java.util.logging (not open) [in <module:java.logging>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.905
+!MESSAGE Cannot handle java.security.interfaces (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.905
+!MESSAGE Cannot handle java.lang.instrument (not open) [in <module:java.instrument>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.906
+!MESSAGE Cannot handle java.lang.runtime (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.907
+!MESSAGE Cannot handle javax.lang (not open) [in <module:java.compiler>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.908
+!MESSAGE Cannot handle jdk.internal.perf (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.909
+!MESSAGE Cannot handle javax.imageio.spi (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.910
+!MESSAGE Cannot handle javax.xml.validation (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.910
+!MESSAGE Cannot handle javax.print.event (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.911
+!MESSAGE Cannot handle javax.net (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.913
+!MESSAGE Cannot handle jdk.xml.internal (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.913
+!MESSAGE Cannot handle jdk.jfr.internal.test (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.914
+!MESSAGE Cannot handle jdk.internal.joptsimple (not open) [in <module:jdk.internal.opt>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.915
+!MESSAGE Cannot handle jdk.internal.jshell.tool.resources (not open) [in <module:jdk.jshell>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.916
+!MESSAGE Cannot handle javax.xml.crypto.dsig.dom (not open) [in <module:java.xml.crypto>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.916
+!MESSAGE Cannot handle jdk.dynalink.linker (not open) [in <module:jdk.dynalink>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.917
+!MESSAGE Cannot handle javax.xml.transform.sax (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.918
+!MESSAGE Cannot handle javax.security.auth.login (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.918
+!MESSAGE Cannot handle javax.swing.text.html (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.919
+!MESSAGE Cannot handle javax.lang.model.util (not open) [in <module:java.compiler>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.920
+!MESSAGE Cannot handle jdk.javadoc.internal.doclets.formats.html.markup (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.920
+!MESSAGE Cannot handle jdk.internal.org.objectweb.asm.util (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.922
+!MESSAGE Cannot handle jdk.jshell.resources (not open) [in <module:jdk.jshell>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.923
+!MESSAGE Cannot handle jdk.incubator (not open) [in <module:jdk.incubator.foreign>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.924
+!MESSAGE Cannot handle javax.xml.namespace (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.925
+!MESSAGE Cannot handle javax.swing.beaninfo (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.926
+!MESSAGE Cannot handle javax.lang.model.type (not open) [in <module:java.compiler>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.926
+!MESSAGE Cannot handle jdk.internal.org.jline.reader.impl.completer (not open) [in <module:jdk.internal.le>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.928
+!MESSAGE Cannot handle jdk.xml (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.928
+!MESSAGE Cannot handle jdk.internal.icu.lang [in <module:java.base>]
+  UCharacter$HangulSyllableType.class (not open)
+  UCharacter$JoiningGroup.class
+    interface JoiningGroup
+  UCharacter$NumericType.class (not open)
+  UCharacter.class (not open)
+  UCharacterDirection.class (not open)
+  UCharacterEnums$ECharacterCategory.class (not open)
+  UCharacterEnums$ECharacterDirection.class (not open)
+  UCharacterEnums.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.930
+!MESSAGE Cannot handle java.lang.annotation [in <module:java.base>]
+  Annotation.class
+    interface Annotation
+  AnnotationFormatError.class (not open)
+  AnnotationTypeMismatchException.class (not open)
+  Documented.class (not open)
+  ElementType.class (not open)
+  IncompleteAnnotationException.class (not open)
+  Inherited.class (not open)
+  Native.class (not open)
+  Repeatable.class (not open)
+  Retention.class (not open)
+  RetentionPolicy.class (not open)
+  Target.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.930
+!MESSAGE Cannot handle java.util.prefs (not open) [in <module:java.prefs>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.931
+!MESSAGE Cannot handle javax.swing.colorchooser (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.932
+!MESSAGE Cannot handle java.beans (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.933
+!MESSAGE Cannot handle javax.xml.catalog (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.934
+!MESSAGE Cannot handle jdk.internal.icu.text (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.935
+!MESSAGE Cannot handle javax.swing.plaf.nimbus (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.936
+!MESSAGE Cannot handle java.rmi.activation (not open) [in <module:java.rmi>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.937
+!MESSAGE Cannot handle jdk.internal.access (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.937
+!MESSAGE Cannot handle javax.xml.transform.dom (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.938
+!MESSAGE Cannot handle javax.sound.sampled.spi (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.939
+!MESSAGE Cannot handle javax.swing.plaf.metal (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.939
+!MESSAGE Cannot handle java.util.jar (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.940
+!MESSAGE Cannot handle jdk.internal.org.jline.terminal.impl.jna (not open) [in <module:jdk.internal.le>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.941
+!MESSAGE Cannot handle java.lang.constant [in <module:java.base>]
+  AsTypeMethodHandleDesc.class (not open)
+  ClassDesc.class
+    interface ClassDesc
+  Constable.class
+    interface Constable
+  ConstantDesc.class
+    interface ConstantDesc
+  ConstantDescs.class (not open)
+  ConstantUtils.class (not open)
+  DirectMethodHandleDesc$1.class (not open)
+  DirectMethodHandleDesc$Kind.class (not open)
+  DirectMethodHandleDesc.class (not open)
+  DirectMethodHandleDescImpl$1.class (not open)
+  DirectMethodHandleDescImpl.class (not open)
+  DynamicCallSiteDesc.class (not open)
+  DynamicConstantDesc$AnonymousDynamicConstantDesc.class (not open)
+  DynamicConstantDesc.class (not open)
+  MethodHandleDesc$1.class (not open)
+  MethodHandleDesc.class (not open)
+  MethodTypeDesc.class (not open)
+  MethodTypeDescImpl$1.class (not open)
+  MethodTypeDescImpl.class (not open)
+  PrimitiveClassDescImpl.class (not open)
+  ReferenceClassDescImpl.class (not open) as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.941
+!MESSAGE Cannot handle javax.management.monitor (not open) [in <module:java.management>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.942
+!MESSAGE Cannot handle java.nio.channels.spi (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.943
+!MESSAGE Cannot handle jdk.internal.org.xml (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.943
+!MESSAGE Cannot handle java.nio.file (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.944
+!MESSAGE Cannot handle jdk.jshell.execution (not open) [in <module:jdk.jshell>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.945
+!MESSAGE Cannot handle java.util.concurrent.atomic (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.945
+!MESSAGE Cannot handle java.util.spi (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.946
+!MESSAGE Cannot handle jdk.management.jfr.internal (not open) [in <module:jdk.management.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.946
+!MESSAGE Cannot handle jdk.internal.icu (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.947
+!MESSAGE Cannot handle javax.swing.plaf.basic (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.948
+!MESSAGE Cannot handle jdk.security.jarsigner (not open) [in <module:jdk.jartool>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.948
+!MESSAGE Cannot handle javax.swing.border (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.949
+!MESSAGE Cannot handle javax.swing.event (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.950
+!MESSAGE Cannot handle java.awt.event (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.950
+!MESSAGE Cannot handle jdk.internal.org (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.951
+!MESSAGE Cannot handle java.text (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.952
+!MESSAGE Cannot handle jdk.jfr.consumer (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.953
+!MESSAGE Cannot handle javax.xml.parsers (not open) [in <module:java.xml>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.962
+!MESSAGE Cannot handle jdk.net (not open) [in <module:jdk.net>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.962
+!MESSAGE Cannot handle javax.accessibility (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.963
+!MESSAGE Cannot handle jdk.javadoc.internal.doclets (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.964
+!MESSAGE Cannot handle jdk.incubator.foreign (not open) [in <module:jdk.incubator.foreign>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.964
+!MESSAGE Cannot handle java.applet (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.965
+!MESSAGE Cannot handle jdk.internal.loader (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.966
+!MESSAGE Cannot handle java.security.cert (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.966
+!MESSAGE Cannot handle jdk.internal.org.jline.utils (not open) [in <module:jdk.internal.le>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.967
+!MESSAGE Cannot handle javax.imageio.plugins (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.967
+!MESSAGE Cannot handle jdk.internal.net (not open) [in <module:java.net.http>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.968
+!MESSAGE Cannot handle jdk.internal.org.jline.reader.impl (not open) [in <module:jdk.internal.le>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.969
+!MESSAGE Cannot handle java.rmi.server (not open) [in <module:java.rmi>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.970
+!MESSAGE Cannot handle jdk.javadoc.doclet (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.970
+!MESSAGE Cannot handle java.time.chrono (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.971
+!MESSAGE Cannot handle jdk.dynalink.linker.support (not open) [in <module:jdk.dynalink>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.972
+!MESSAGE Cannot handle jdk.jfr.internal.jfc (not open) [in <module:jdk.jfr>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.972
+!MESSAGE Cannot handle jdk.internal.jshell.tool (not open) [in <module:jdk.jshell>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.973
+!MESSAGE Cannot handle java.nio.charset (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.974
+!MESSAGE Cannot handle javax.management.loading (not open) [in <module:java.management>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.974
+!MESSAGE Cannot handle java.awt.image.renderable (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.975
+!MESSAGE Cannot handle jdk.internal.joptsimple.util (not open) [in <module:jdk.internal.opt>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.976
+!MESSAGE Cannot handle jdk.internal.math (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.977
+!MESSAGE Cannot handle javax.management.openmbean (not open) [in <module:java.management>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.978
+!MESSAGE Cannot handle jdk.internal.org.xml.sax (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.979
+!MESSAGE Cannot handle jdk.javadoc.internal.tool (not open) [in <module:jdk.javadoc>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.980
+!MESSAGE Cannot handle javax.security.auth.x500 (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.981
+!MESSAGE Cannot handle jdk.internal (not open) [in <module:jdk.compiler>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.982
+!MESSAGE Cannot handle jdk.internal.net.http (not open) [in <module:java.net.http>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.983
+!MESSAGE Cannot handle jdk.internal.logger (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.983
+!MESSAGE Cannot handle jdk.dynalink.support (not open) [in <module:jdk.dynalink>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.984
+!MESSAGE Cannot handle javax.naming (not open) [in <module:java.naming>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.985
+!MESSAGE Cannot handle javax.imageio.plugins.jpeg (not open) [in <module:java.desktop>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.986
+!MESSAGE Cannot handle jdk.internal.org.jline.reader.impl.history (not open) [in <module:jdk.internal.le>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.987
+!MESSAGE Cannot handle jdk.internal.vm.annotation (not open) [in <module:java.base>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.988
+!MESSAGE Cannot handle javax.management.timer (not open) [in <module:java.management>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 15:55:29.989
+!MESSAGE Cannot handle javax.xml.crypto (not open) [in <module:java.xml.crypto>] as return type.
+!SESSION 2021-03-25 22:50:25.103 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-25 22:50:33.545
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.poll.PollNewsFeedsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-25 22:50:33.550
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.read.ReadNewsItemsHandler
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2021-03-25 22:50:46.804
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://org.eclipse.recommenders.news.rcp/org.eclipse.recommenders.internal.news.rcp.toolbar.NewsToolControl
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-03-25 22:50:50.019
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\qkdlf'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 23:21:02.809
+!MESSAGE Cannot handle netscape.javascript (not open) [in <module:jdk.jsobject>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 23:21:02.811
+!MESSAGE Cannot handle netscape (not open) [in <module:jdk.jsobject>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 23:21:05.267
+!MESSAGE Cannot handle netscape.javascript (not open) [in <module:jdk.jsobject>] as return type.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2021-03-25 23:21:05.268
+!MESSAGE Cannot handle netscape (not open) [in <module:jdk.jsobject>] as return type.
