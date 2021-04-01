@@ -12,6 +12,7 @@ public class Solution {
 		{
 			return down(triangle, row+1, col);
 		}
+		
 		if(cache[row][col]!=0)
 		{
 			return cache[row][col];
