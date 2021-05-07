@@ -8,6 +8,7 @@ public class Solution{
 	static boolean[][] visited;
 	
     public static int[] solution(int m, int n, int[][] picture) {
+    	
         int numberOfArea = 0;
         int maxSizeOfOneArea = 0;
         M = m;
