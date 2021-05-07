@@ -19,7 +19,6 @@
     <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray"/>
     <fullyQualifiedTypeName name="다중조건정렬.Main.Apple"/>
     <fullyQualifiedTypeName name="BOJ_1181.Main.lang"/>
-    <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="BOJ_1966.Main.Document"/>
     <fullyQualifiedTypeName name="jdk.jfr.Unsigned"/>
     <fullyQualifiedTypeName name="java.math.BigInteger"/>
@@ -35,8 +34,6 @@
     <fullyQualifiedTypeName name="org.graalvm.compiler.graph.NodeList"/>
     <fullyQualifiedTypeName name="java.lang.Enum"/>
     <fullyQualifiedTypeName name="sun.java2d.pipe.SolidTextRenderer"/>
-    <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="BOJ_2178.Main.Pair"/>
     <fullyQualifiedTypeName name="BOJ_2178.Pair"/>
     <fullyQualifiedTypeName name="java.lang.ArrayStoreException"/>
@@ -49,12 +46,18 @@
     <fullyQualifiedTypeName name="java.sql.Array"/>
     <fullyQualifiedTypeName name="PROM_68935.Solution"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="PROM_42576.Solution"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
     <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="PROM_1829.Solution.Node"/>
+    <fullyQualifiedTypeName name="jdk.tools.jlink.internal.DirArchive"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.loop.InductionVariable.Direction"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
 </qualifiedTypeNameHistroy>
