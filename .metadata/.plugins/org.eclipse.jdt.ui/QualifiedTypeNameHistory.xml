@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.sun.java.swing.plaf.windows.WindowsTreeUI.CollapsedIcon"/>
     <fullyQualifiedTypeName name="java.util.Hashtable"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="com.sun.tools.javac.code.Attribute.Array"/>
@@ -13,7 +12,6 @@
     <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
     <fullyQualifiedTypeName name="com.sun.tools.classfile.CharacterRangeTable_attribute.Entry"/>
     <fullyQualifiedTypeName name="java.util.Map.Entry"/>
-    <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray"/>
     <fullyQualifiedTypeName name="다중조건정렬.Main.Apple"/>
     <fullyQualifiedTypeName name="BOJ_1181.Main.lang"/>
@@ -46,13 +44,10 @@
     <fullyQualifiedTypeName name="java.util.HashSet"/>
     <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
     <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
-    <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="PROM_1829.Solution.Node"/>
     <fullyQualifiedTypeName name="jdk.tools.jlink.internal.DirArchive"/>
     <fullyQualifiedTypeName name="org.graalvm.compiler.loop.InductionVariable.Direction"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="PROM_42888.Solution.User"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="PROM_12899.Solution"/>
@@ -60,4 +55,9 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.lang.Character"/>
 </qualifiedTypeNameHistroy>
