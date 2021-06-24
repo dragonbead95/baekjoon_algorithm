@@ -3,15 +3,9 @@ package BOJ_1012;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Collections;
 import java.util.LinkedList;
-import java.util.Queue;
-
-import sun.java2d.pipe.SolidTextRenderer;
-
 
 public class Main {
-	
 	public static LinkedList<Integer>[] nodeList;
 	public static int m;
 	public static int n;
@@ -104,6 +98,4 @@ public class Main {
 		
 		
 	}
-
-	
 }
