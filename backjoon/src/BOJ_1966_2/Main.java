@@ -1,15 +1,17 @@
-package BOJ_1966;
+package BOJ_1966_2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.PriorityQueue;
+
 
 
 
 public class Main {
-	
 	static class Node{
 		int priority;	// 중요도
 		int id;			// 문서 id
@@ -23,44 +25,34 @@ public class Main {
 		public String toString() {
 			return "Node [priority=" + priority + ", id=" + id + "]";
 		}
-		
-		
 
 	}
-	
-	public static int solution(List<Node> printer, int target)
+
+	public static int solution(List<Node> printer, PriorityQueue<Integer> prioritys, int target)
 	{
 		int count=0;
 		while(!printer.isEmpty())
 		{
-			Node node = printer.get(0);
+			Node node = printer.remove(0);
 			
-			/* node보다 높은 우선순위를 가진 다른 node가 있는지 탐색한다. */
-			boolean flag = false;
-			for(int i=1;i<printer.size();i++)
+			// printer 큐의 맨 앞에 있는 문서의 우선순위가 prioritys 우선순위큐의 제일 앞에 있는 우선순위와 같은지 검사
+			if(node.priority==prioritys.peek())
 			{
-				if(node.priority<printer.get(i).priority)
-				{
-					flag = true;
-					break;
-				}
-			}
-			/* flag==true이면 node보다 높은 우선순위의 문서가 있는 것이므로 리스트의 뒤로 보낸다.*/
-			printer.remove(0);
-			if(flag==true)
-			{
-				printer.add(node);
-			}else
-			{
+				prioritys.poll();
 				count++;
 				if(node.id==target)
 				{
-					return count;
+					break;
 				}
+			}
+			else
+			{
+				printer.add(node);
 			}
 		}
 		return count;
 	}
+	
 	
 	public static void main(String args[]) throws IOException
 	{
@@ -73,23 +65,22 @@ public class Main {
 			String[] str = br.readLine().split(" ");
 			int N = Integer.parseInt(str[0]);		// 문서 개수
 			int target = Integer.parseInt(str[1]);	// 몇번째로 인쇄하는지 궁금한 문서id
-			int[] nodes = new int[N];
-			str = br.readLine().split(" ");
-			for(int i=0;i<nodes.length;i++)
-			{
-				nodes[i] = Integer.parseInt(str[i]);
-			}
 			
+			str = br.readLine().split(" ");
 			
 			List<Node> printer = new ArrayList<>();
+			PriorityQueue<Integer> prioritys = new PriorityQueue<Integer>(Collections.reverseOrder());
+			
 			
 			for(int i=0;i<N;i++)
 			{	
-				printer.add(new Node(nodes[i],i));
+				printer.add(new Node(Integer.parseInt(str[i]),i));
+				prioritys.add(Integer.parseInt(str[i]));
 			}
+			System.out.println(solution(printer, prioritys, target));
 			
-			
-			System.out.println(solution(printer, target));
 		}
 	}
 }
+
+
