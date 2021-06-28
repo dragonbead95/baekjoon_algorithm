@@ -27,4 +27,6 @@
 		<item key="DIALOG_X_ORIGIN" value="627"/>
 		<item key="DIALOG_Y_ORIGIN" value="72"/>
 	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+	</section>
 </section>
